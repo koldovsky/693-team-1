@@ -15,8 +15,8 @@ nav {
 .header__contacts {
     display: flex;
     justify-content: space-between;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 190px;
+    margin-right: 190px;
     padding-bottom: 5px;
     padding-left: 15px;
     padding-right: 15px;
@@ -66,8 +66,8 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 190px;
+    margin-right: 190px;
     padding-bottom: 20px;
     padding-left: 15px;
     padding-right: 15px;
@@ -121,8 +121,8 @@ main {
 .main__header {
     padding-top: 90px;
     padding-bottom: 100px;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 190px;
+    margin-right: 190px;
 }
 
 .main__header__info {
@@ -218,8 +218,8 @@ main {
     row-gap: 30px;
     display: flex;
     margin-top: 50px;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 190px;
+    margin-right: 190px;
     flex-wrap: wrap;
     box-sizing: border-box;
     column-gap: 30px;
