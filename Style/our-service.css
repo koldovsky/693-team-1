@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Raleway:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    font-family: 'Raleway', sans-serif;
+}
+
+.header__contacts {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+}
+
+.header__contacts-icons {
+    display: flex;
+    column-gap: 10px;
+
+}
+
+.header__contacts-tel {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+
+}
+
+.header__contacts a {
+    font-size: 16px;
+    color: #d0bd8c;
+    text-decoration: none;
+}
+
+.header__contacts-social {
+    width: 25px;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__contacts-social a {
+    color: black;
+}
+
+
+.header__top-navigation {
+    background-size auto;
+}
+
+.header__top-navigation_wrap {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 20px;
+    line-height: 16px;
+}
+
+.header__top-navigation-links_wrap {
+    display: flex;
+}
+
+.header__top-navigation-links {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 15px;
+}
+
+
+.header__top-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__top-navigation-button {
+    width: 150px;
+    height: 40px;
+    background: #d0bd8c;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+    font-size 16px;
+}
+
+.link:hover {
+    color: #d0bd8c;
+}
+
+main {
+    font-family: 'Playfair Display', serif;
+}
+
+.main__header {
+    padding-top: 90px;
+    padding-bottom: 100px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.main__header__info {
+
+}
+
+.main__header__info-h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    color: rgb(37, 54, 74);
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+.main__header__info-content {
+    margin-top: 50px;
+    display: flex;
+
+}
+
+.main__header__info-h3 {
+    font-size: 24px;
+    letter-spacing: 1px;
+    color: rgb(37, 54, 74);
+}
+
+.main__header__info-img {
+    height: 275px;
+}
+
+.main__header__info-p-up {
+    margin-top: 20px;
+}
+
+.main__header__info-left {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.main__header__info-left p {
+    letter-spacing: 0.465px;
+    line-height: 26px;
+    color: rgb(81, 92, 109);
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.main__header__info-right {
+    padding: 40px 45px 40px 45px;
+}
+
+.destinations {
+    background-image: url("./img/background_section_destination.jpg");
+    background-size: cover;
+    min-height: 1200px;
+    background-attachment: fixed;
+
+}
+
+.destination-wrap {
+    background-color: rgba(37, 54, 74, 0.85);
+    background-size: cover;
+    min-height: 1200px;
+}
+
+.destination__header {
+    text-align: center;
+    color: rgb(255, 255, 255);
+
+}
+
+.destinations__h2 {
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding-top: 90px;
+}
+
+.sea__subheader {
+    margin-top: 25px;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.destinations__main {
+
+}
+
+
+.routes {
+    row-gap: 30px;
+    display: flex;
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    column-gap: 30px;
+}
+
+.frame {
+    background-color: rgb(255, 255, 255);
+    max-width:33,3%;
+    width: 370px;
+    height: 370px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.croatian_isles_img, .amalfi_img, .norwey_img, .turkey_img, .spain_img, .greece_img {
+    width: 309px;
+    height: 267px;
+}
+.croatian_isles_p, .amalfi_p, .norwey_p, .turkey_p, .spain_p, .greece_p {
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+}
