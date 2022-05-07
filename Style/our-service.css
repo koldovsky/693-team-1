@@ -103,7 +103,9 @@ nav {
     align-items: center;
     margin-left: 15px;
 }
-
+.header__top-navigation-button:hover {
+    background: white;
+}
 .link {
     color: white;
     text-decoration: none;
@@ -112,6 +114,9 @@ nav {
 
 .link:hover {
     color: #d0bd8c;
+}
+.link button:hover{
+    color:#d0bd8c;
 }
 
 main {
