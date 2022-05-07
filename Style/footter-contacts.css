@@ -1,0 +1,68 @@
+h3, h4, p{
+    color: white;
+}
+
+.footer-contacts{
+    background: rgb(53, 53, 130);
+}
+
+.footter-text-contact{
+    box-sizing: border-box;
+    width: 273px;
+    text-align: center;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-bottom: 50px;
+}
+
+.address{
+    box-sizing: border-box;
+    width: 273px;
+    background: white;
+    margin-left: 16px;
+    margin-bottom: 20px;
+}
+
+.address h4{
+    text-align: center;
+    color:black
+}
+
+.address p{
+    text-align: center;
+    color:black
+}
+
+.footer-form{
+    box-sizing: border-box;
+    width: 273px;
+    height: 350px;
+    background: white;
+    margin-left: 16px;
+}
+
+.form{
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.input{
+    margin-bottom: 30px;
+    padding-left: 20px;
+    border-radius: 20px;
+    height: 40px;
+    width: 190px;
+    color: rgb(85, 78, 78);
+    background: rgb(217, 216, 216);
+    border: none;
+}
+
+.btn_form{
+    margin-top: 40px;
+    height: 40px;
+    width: 210px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    background: rgb(209, 172, 104);
+}
