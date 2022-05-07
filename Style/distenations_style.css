@@ -82,3 +82,14 @@
 .im img:hover{
     border: 0.1em solid chocolate;
 }
+.button_under_cart{
+    text-align: center;
+    margin: 30px;
+}
+.button_under_cart button {
+    background-color: darksalmon;
+    border-radius: 20px;
+}
+.button_under_cart label{
+    font-size: 20px;
+}
