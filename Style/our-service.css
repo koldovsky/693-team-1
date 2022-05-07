@@ -175,7 +175,7 @@ main {
 }
 
 .destinations {
-    background-image: url("./img/background_section_destination.jpg");
+    background-image: url("./img/our-service/background_section_destination.jpg");
     background-size: cover;
     min-height: 1200px;
     background-attachment: fixed;
