@@ -1,0 +1,22 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --text-color-hover: #d0bd8c;
+    --main-text-color: rgb(37, 54, 74);
+   --background-color-wrap:rgba(37, 54, 74, 0.85);
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+.container {
+    max-width: 980px;
+    margin: auto;
+}
