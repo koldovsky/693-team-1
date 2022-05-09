@@ -237,15 +237,13 @@ main {
     flex-wrap: wrap;
     box-sizing: border-box;
     column-gap: 30px;
+    justify-content: center;
+    align-items: center
 }
 
 .frame {
     background-color: rgb(255, 255, 255);
-    max-width: 33, 3%;
-    width: 380px;
-    height: 370px;
-
-
+    width: 30%;
 }
 .frame-item {
     display: flex;
