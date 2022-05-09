@@ -49,3 +49,9 @@
     border-bottom-style: none;
     border-bottom-width: 0px;
 }
+
+.column__YachtSail__Trip h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 41px;
+    text-align: center;
+}
