@@ -415,6 +415,7 @@ main {
         flex-wrap: wrap;
         box-sizing: border-box;
         column-gap: 30px;
+        flex-direction: column;
 
     }
 
