@@ -4,10 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
-}
+
 
 nav {
     font-family: 'Raleway', sans-serif;
@@ -29,28 +26,8 @@ nav {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    /*    margin-left: 350px;*/
-    /*    margin-right: 350px;*/
-    /*    padding-bottom: 5px;*/
-    /*    padding-left: 15px;*/
-    /*    padding-right: 15px;*/
-    /*    padding-top: 5px;*/
 }
 
-@media screen and (max-width: 1200px) {
-    .header__contacts {
-        margin: 0 auto;
-    }
-
-    .header__top-navigation {
-
-    }
-
-    .header__top-navigation_wrap {
-
-    }
-
-}
 
 .header__contacts-icons {
     display: flex;
@@ -192,6 +169,7 @@ main {
 
 .main__header__info-img {
     height: 275px;
+
 }
 
 .main__header__info-p-up {
@@ -250,17 +228,12 @@ main {
     font-family: 'Raleway', sans-serif;
 }
 
-.destinations__main {
-
-}
-
 
 .routes {
     row-gap: 30px;
     display: flex;
-    margin-top: 50px;
-    margin-left: 350px;
-    margin-right: 350px;
+    margin: 0 auto;
+    padding-left: 80px;
     flex-wrap: wrap;
     box-sizing: border-box;
     column-gap: 30px;
@@ -271,15 +244,22 @@ main {
     max-width: 33, 3%;
     width: 380px;
     height: 370px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
 
 }
+.frame-item {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+    padding-top: 50px;
+}
+
 
 .croatian_isles_img, .amalfi_img, .norwey_img, .turkey_img, .spain_img, .greece_img {
-    width: 309px;
-    height: 267px;
+    max-width: 80%;
+
 }
 
 .croatian_isles_p, .amalfi_p, .norwey_p, .turkey_p, .spain_p, .greece_p {
@@ -301,13 +281,11 @@ main {
     font-weight: 700;
     letter-spacing: 2px;
     color: rgb(37, 54, 74);
-    margin-left: 350px;
-    margin-right: 350px;
+    margin: 0 auto;
 }
 
 .accommodation_options_main_content {
-    margin-left: 350px;
-    margin-right: 350px;
+    margin: 0 auto;
     display: flex;
 }
 
@@ -319,7 +297,7 @@ main {
 }
 
 .accommodation_options_main_content_cabin_img, .accommodation_options_main_content_yacht_img {
-    width: 510px;
+    width: auto;
     height: 250px;
 
 }
@@ -361,9 +339,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 55px;
-    margin-left: 350px;
-    margin-right: 350px;
+    margin: 0 auto;
 }
 
 .accommodation_options_footer-button {
@@ -387,4 +363,51 @@ main {
 
 .accommodation_options_footer-button:hover {
     background-color: #d0bd8c;
+}
+.crew_service__main_captain_img, .crew_service__main_skipper_img, .crew_service__main_all_inclusive_img {
+    width: 280px;
+}
+
+@media screen and (max-width: 390px) {
+    .header-wrap {
+        display: none;
+    }
+    .header__top-navigation-links_wrap {
+        display: none;
+    }
+    .main__header__info-h2 {
+        font-size: 28px;
+        letter-spacing: 1.5px;
+    }
+    .main__header__info-content {
+        flex-direction: column;
+
+    }
+    .destinations__h2 {
+        font-size: 34px;
+        letter-spacing: 1.4px;
+    }
+    .routes {
+        row-gap: 30px;
+        display: flex;
+       margin: 0 auto;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+        column-gap: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .accommodation_options_header_h2 {
+        font-size: 34px;
+    }
+    .accommodation_options_main_content {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .main__header__info-img {
+        width: 240px;
+
+    }
+
 }
