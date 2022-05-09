@@ -9,9 +9,11 @@
 nav {
     font-family: 'Raleway', sans-serif;
 }
+
 .header {
     width: 100%;
 }
+
 .header-wrap {
     width: 80%;
     margin: 0 auto;
@@ -137,15 +139,14 @@ main {
     padding-bottom: 100px;
 
 }
+
 .main__header-wrap {
     width: 80%;
     margin: 0 auto;
 
 }
 
-.main__header__info {
-
-}
+.main__header__info {}
 
 .main__header__info-h2 {
     font-family: 'Playfair Display', serif;
@@ -233,7 +234,6 @@ main {
     row-gap: 30px;
     display: flex;
     margin: 0 auto;
-    padding-left: 80px;
     flex-wrap: wrap;
     box-sizing: border-box;
     column-gap: 30px;
@@ -245,6 +245,7 @@ main {
     background-color: rgb(255, 255, 255);
     width: 30%;
 }
+
 .frame-item {
     display: flex;
     justify-content: center;
@@ -255,12 +256,22 @@ main {
 }
 
 
-.croatian_isles_img, .amalfi_img, .norwey_img, .turkey_img, .spain_img, .greece_img {
+.croatian_isles_img,
+.amalfi_img,
+.norwey_img,
+.turkey_img,
+.spain_img,
+.greece_img {
     max-width: 80%;
 
 }
 
-.croatian_isles_p, .amalfi_p, .norwey_p, .turkey_p, .spain_p, .greece_p {
+.croatian_isles_p,
+.amalfi_p,
+.norwey_p,
+.turkey_p,
+.spain_p,
+.greece_p {
     margin-top: 20px;
     text-align: center;
     font-family: 'Rubik', sans-serif;
@@ -287,14 +298,16 @@ main {
     display: flex;
 }
 
-.accommodation_options_main_content_cabin, .accommodation_options_main_content_yacht {
+.accommodation_options_main_content_cabin,
+.accommodation_options_main_content_yacht {
     display: flex;
     flex-direction: column;
     padding: 0 15px 0 15px;
 
 }
 
-.accommodation_options_main_content_cabin_img, .accommodation_options_main_content_yacht_img {
+.accommodation_options_main_content_cabin_img,
+.accommodation_options_main_content_yacht_img {
     width: auto;
     height: 250px;
 
@@ -304,7 +317,8 @@ main {
     padding: 40px 30px 40px 30px;
 }
 
-.accommodation_options_main_content_cabin_h3, .accommodation_options_main_content_yacht_h3 {
+.accommodation_options_main_content_cabin_h3,
+.accommodation_options_main_content_yacht_h3 {
     text-align: center;
     font-family: 'Playfair Display', serif;
     font-size: 24px;
@@ -312,7 +326,8 @@ main {
     margin-top: 20px;
 }
 
-.accommodation_options_main_content_cabin_p, .accommodation_options_main_content_yacht_p {
+.accommodation_options_main_content_cabin_p,
+.accommodation_options_main_content_yacht_p {
     font-family: 'Raleway', sans-serif;
     color: rgb(81, 92, 109);
     letter-spacing: 0.5px;
@@ -362,7 +377,10 @@ main {
 .accommodation_options_footer-button:hover {
     background-color: #d0bd8c;
 }
-.crew_service__main_captain_img, .crew_service__main_skipper_img, .crew_service__main_all_inclusive_img {
+
+.crew_service__main_captain_img,
+.crew_service__main_skipper_img,
+.crew_service__main_all_inclusive_img {
     width: 280px;
 }
 
@@ -370,38 +388,46 @@ main {
     .header-wrap {
         display: none;
     }
+
     .header__top-navigation-links_wrap {
         display: none;
     }
+
     .main__header__info-h2 {
         font-size: 28px;
         letter-spacing: 1.5px;
     }
+
     .main__header__info-content {
         flex-direction: column;
 
     }
+
     .destinations__h2 {
         font-size: 34px;
         letter-spacing: 1.4px;
     }
+
     .routes {
         row-gap: 30px;
         display: flex;
-       margin: 0 auto;
+        margin: 0 auto;
         flex-wrap: wrap;
         box-sizing: border-box;
         column-gap: 30px;
-        
+
     }
+
     .accommodation_options_header_h2 {
         font-size: 34px;
     }
+
     .accommodation_options_main_content {
         margin: 0 auto;
         display: flex;
         flex-direction: column;
     }
+
     .main__header__info-img {
         width: 240px;
 
