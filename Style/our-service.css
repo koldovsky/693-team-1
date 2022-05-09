@@ -418,6 +418,9 @@ main {
         flex-direction: column;
 
     }
+    .frame {
+        width: 80%;
+    }
 
     .accommodation_options_header_h2 {
         font-size: 34px;
