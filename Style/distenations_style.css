@@ -6,7 +6,7 @@
  font-weight: bolder;
  font-size: 3em;
 }
-.s{
+.secomd_one{
     margin-top: 1em;
 }
 .second{
@@ -26,18 +26,18 @@
 .text_page{
     margin-left: 1em;
 }
-.text_page #l{
+.text_page .lab{
     font-size: 2em;
     font-weight: bold;
 }
 .t{
     margin-top: 1em;
 }
-.text_page #l1 {
+.text_page .lab1 {
     font-size: 1em;
     color:darkgrey;
 }
-.text_page #l2 {
+.text_page .lab2 {
     font-size: 1.2em;
     
 }
@@ -93,4 +93,7 @@
 }
 .button_under_cart label{
     font-size: 20px;
+}
+.but_label{
+    color: white;
 }
