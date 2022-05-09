@@ -392,8 +392,7 @@ main {
         flex-wrap: wrap;
         box-sizing: border-box;
         column-gap: 30px;
-        padding-left: 10px;
-        padding-right: 10px;
+        
     }
     .accommodation_options_header_h2 {
         font-size: 34px;
