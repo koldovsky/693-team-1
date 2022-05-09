@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Raleway:ital,wght@0,100;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+.gallery {
+    font-family: 'Raleway', serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+.gallery h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 41px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    color: #25364a;
+    vertical-align: baseline;
+    font-weight: bold;
+}
+
+.row {
+    column-count: 4;
+    column-width: auto;
+    column-gap: 30px;
+    margin: 30px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: flex-start;
+}
+
+.YachtSail__Trips {
+    margin-top: 60px;
+    background: fixed no-repeat;
+    padding: 95;
+    text-align: left;
+    flex-wrap: wrap;
+}
+
+
+.column__YachtSail__Trips button {
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    border-bottom-color: rgba(0, 0, 0, 0);
+    border-bottom-left-radius: 34px;
+    border-bottom-right-radius: 34px;
+    border-bottom-style: none;
+    border-bottom-width: 0px;
+}
