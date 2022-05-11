@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Raleway:wght@200;400&display=swap');
+
+.header__h1_sav {
+    font-family: 'Playfair Display', serif;
+    border-bottom-color: rgb(37, 54, 74);
+    border-left-color:rgb(37, 54, 74);
+    border-right-color:rgb(37, 54, 74);
+    border-top-color:rgb(37, 54, 74);
+    border-image-width:1;
+    color: rgb(37, 54, 74);
+    box-sizing:border-box;
+    font-size:70px;
+    font-stretch: 100%;
+    font-weight:900px;
+    letter-spacing:5px;
+    line-height:90px;
+    overflow-wrap: break-word;
+    text-align:center;
+    vertical-align:baseline;
+    -webkit-font-smoothing:antialiased;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+}
+
+.paragraph__text_sav {
+    font-family: 'Raleway', sans-serif;
+    border-bottom-color: rgb(81, 92, 109);
+    border-image-repeat: stretch;
+    border-image-slice:100%;
+    border-image-width:1;
+    border-left-color:rgb(81, 92, 109);
+    border-right-color:rgb(81, 92, 109);
+    border-top-color:rgb(81, 92, 109);
+    box-sizing:border-box;
+    color:rgb(81, 92, 109);
+    font-size:25px;
+    font-stretch:100%;
+    font-weight:500;
+    letter-spacing:0.896px;
+    line-height:60px;
+    overflow-wrap:break-word;
+    text-align:center;
+    vertical-align: baseline;
+    -webkit-font-smoothing:antialiased;
+}
+
+.grid { display: grid; grid-template-columns: auto auto auto auto auto; gap: 30px; margin-top: 100px; margin-left: 15px;}
+
+.yacht_img {height: 350px; width: 350px;}
+
+.button {
+    position: relative;
+    display: block;
+    margin-left: 810px;
+    margin-right: 810px;
+    margin-top: 100px;
+}
+.button .img-top {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.button:hover .img-top {
+    display: inline;
+}
