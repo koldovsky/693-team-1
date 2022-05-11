@@ -124,7 +124,7 @@ nav {
 .header__top-navigation-button:hover {
     background: white;
 }
-.link {
+.header__top-navigation-button {
     color: white;
     text-decoration: none;
     font-size: 16px;
@@ -132,7 +132,7 @@ nav {
 .link:hover {
     color: #d0bd8c;
 }
-.link button:hover {
+.header__top-navigation-button:hover {
     color: #d0bd8c;
 }
 main {
