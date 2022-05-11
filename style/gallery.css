@@ -1,47 +1,80 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Raleway:ital,wght@0,100;1,100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
-.gallery {
-    font-family: 'Raleway', serif;
-    font-size: 15px;
-    text-align: center;
-}
-
 .gallery h2 {
     font-family: 'Playfair Display', serif;
-    font-size: 41px;
-    text-align: center;
+    vertical-align: baseline;
     margin: 0;
     padding: 0;
-    border: 0;
-    color: #25364a;
-    vertical-align: baseline;
-    font-weight: bold;
+    color: var(--main-text-color);
+    font-weight: 700 bold;
+    align-content: center;
+    text-align: center;
 }
 
-.row {
-    column-count: 4;
-    column-width: auto;
-    column-gap: 30px;
-    margin: 30px;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-content: flex-start;
+.gallery img {
+    weight: 291px;
+    margin: 3px;
+}
+
+.main-gallery {
+  align-items: center;
+  justify-content: center;
+  margin: 0 15px 0 15px;
+  display: flex;
+  position: relative;
+  z-index: 1;
+}
+
+@media (min-widht: 640px) {
+    .main-gallery {
+          flex-direction: row;
+          align-items: center;
+          justify-content: space-around;
+          flex: 1;
+        }
+      }
+
+.section-yachtsail-trips {
+        color: #fff;
+        padding-top: 90px;
+        padding-bottom: 90px;
+        background-color: var(--background-color-wrap);
+}
+
+.column-section-yachtsail-trips h2 {
+    color: white !important;
+    text-align: left;
 }
 
 .YachtSail__Trips {
-    margin-top: 60px;
-    background: fixed no-repeat;
-    padding: 95;
-    text-align: left;
-    flex-wrap: wrap;
+      margin-top: 60px;
+      background: fixed no-repeat;
+      padding: 95;
+      text-align: left;
+  }
+
+.section-yachtsail-trips {
+  align-items: left;
+  justify-content: left;
+  margin: 0 15px 0 15px;
+  display: flex;
+  position: relative;
+  z-index: 1;
 }
 
+@media (min-width: 320px) {
+    .section-yachtsail-trip {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        flex: 1;
+      }
+}
 
 .column__YachtSail__Trips button {
     font-weight: 700;
-    font-family: 'Times New Roman', Times, serif;
+    font-family:'Playfair Display', serif;
     font-size: 16px;
     border-bottom-color: rgba(0, 0, 0, 0);
     border-bottom-left-radius: 34px;
@@ -50,8 +83,15 @@
     border-bottom-width: 0px;
 }
 
-.column__YachtSail__Trip h2 {
-    font-family: 'Playfair Display', serif;
-    font-size: 41px;
-    text-align: center;
+.button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 14px;
+    width: 75.96px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background: rgb(209, 172, 104);
 }
