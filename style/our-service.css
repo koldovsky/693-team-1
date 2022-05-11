@@ -274,6 +274,7 @@ main {
     font-weight: 500;
     letter-spacing: 0.465px;
     line-height: 26.25px;
+    width: 80%;
 }
 .accommodation_options_main_content_cabin_ul {
     list-style-image: url("../img/our-service/svg.JPG");
