@@ -124,7 +124,7 @@ nav {
 .header__top-navigation-button:hover {
     background: white;
 }
-.header__top-navigation-button {
+.link, .header__top-navigation-button {
     color: white;
     text-decoration: none;
     font-size: 16px;
