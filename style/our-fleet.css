@@ -17,14 +17,21 @@
 
 .block {
     text-align: center;
-    font-size: large;
+    font-size: auto;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 
 
 .photo_ship {
-    border: 10px solid rgb(255, 255, 255);
-    padding: 10px;
+    border: 5px solid rgb(255, 255, 255);
+    padding: 15px;
+    margin:10px;
+    background-color: white;
+    margin-left: 15px;
+    margin-right: 15px;
+    
 }
 
 .our-fleet_image {
@@ -56,6 +63,7 @@
 }
 
 .button_choose {
+    margin-top: 30px;
     border-radius: 20px;
     border: 2px solid rgb(209, 172, 104);
     background-color: transparent;
@@ -74,6 +82,13 @@
     background-color: rgb(209, 172, 104);
 
 }
+
+
+.container-our-fleet{
+   background-image: url(/img/our-fleet/background.jpg);
+
+}
+
 
  
 
