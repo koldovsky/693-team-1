@@ -270,7 +270,7 @@ main {
     text-align: center;
     font-size: 22px;
 }
-..accommodation_options_main_content_cabin_p, .accommodation_options_main_content_yacht_p {
+.accommodation_options_main_content_cabin_p, .accommodation_options_main_content_yacht_p {
     font-weight: 500;
     letter-spacing: 0.465px;
     line-height: 26.25px;
