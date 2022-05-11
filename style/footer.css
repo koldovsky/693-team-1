@@ -5,7 +5,12 @@
 
 .wrapper_footer {}
 
-.footer_content {}
+.footer_content {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
 
 .footer_logo {
     width: 176px;
