@@ -257,6 +257,24 @@ main {
     font-size: 18px;
     padding-bottom: 15px;
 }
+.accommodation_options {
+    padding-bottom: 90px;
+    padding-top: 90px;
+}
+.accommodation_options_header_h2 {
+    text-align: center;
+    font-size: 34px;
+    padding-bottom: 60px;
+}
+.accommodation_options_main_content_cabin_h3, .accommodation_options_main_content_yacht_h3 {
+    text-align: center;
+    font-size: 22px;
+}
+..accommodation_options_main_content_cabin_p, .accommodation_options_main_content_yacht_p {
+    font-weight: 500;
+    letter-spacing: 0.465px;
+    line-height: 26.25px;
+}
 @media (max-width: 770px) {
     .main__header__info-content {
         flex-direction: column;
