@@ -1,11 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Raleway:wght@100&display=swap');
 
-.main-block-gallery {
-  color: var(--main-text-color);
-  text-align: center;
-}
-
 .gallery-top {
   color: var(--main-text-color);
   text-align: center;
@@ -24,12 +19,11 @@ p .gallery-top {
 
 .main-block-gallery {
   background-color: var(--background-color-white);
-  width: 100%;
   display: grid;
   gap: 10px;
-  justify-content: center;
-  align-items: center;
   padding-top: 50px;
+  color: var(--main-text-color);
+  text-align: center;
 }
 
 @media (min-width: 640px) {
@@ -52,67 +46,22 @@ p .gallery-top {
 
 .gallery {
 margin:6px;
-width: 100%
+align-items: stretch;
 }
+  
 
+/*section two*/
 
 .section-yachtsail-trips {
-        color: #fff;
-        padding-top: 90px;
-        padding-bottom: 90px;
-        background-color: var(--background-color-wrap);
+  color: #fff;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: var(--background-color-wrap);
+  display: grid;
+
 }
-
-.column-section-yachtsail-trips h2 {
-    color: white !important;
-    text-align: left;
-}
-
-.YachtSail__Trips {
-      margin-top: 60px;
-      background: fixed no-repeat;
-      padding: 95;
-      text-align: left;
-  }
-
-.section-yachtsail-trips {
-  align-items: left;
-  justify-content: left;
-  margin: 0 15px 0 15px;
-  display: flex;
-  position: relative;
-  z-index: 1;
-}
-
-@media (min-width: 320px) {
-    .section-yachtsail-trip {
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-around;
-        flex: 1;
-      }
-}
-
-.column__YachtSail__Trips button {
-    font-weight: 700;
-    font-family:'Playfair Display', serif;
-    font-size: 16px;
-    border-bottom-color: rgba(0, 0, 0, 0);
-    border-bottom-left-radius: 34px;
-    border-bottom-right-radius: 34px;
-    border-bottom-style: none;
-    border-bottom-width: 0px;
-}
-
-.button {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 14px;
-    width: 75.96px;
-    border-radius: 5px;
-    border: none;
-    color: white;
-    background: rgb(209, 172, 104);
+@media (min-width: 640 px) {
+   .section-yachtsail-trips{
+      grid-template-columns: 1fr 1fr;
+   }
 }
