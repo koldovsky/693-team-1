@@ -1,39 +1,60 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Raleway:ital,wght@0,100;1,100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Raleway:wght@100&display=swap');
 
-.gallery h2 {
-    font-family: 'Playfair Display', serif;
-    vertical-align: baseline;
-    margin: 0;
-    padding: 0;
-    color: var(--main-text-color);
-    font-weight: 700 bold;
-    align-content: center;
-    text-align: center;
+.main-block-gallery {
+  color: var(--main-text-color);
+  text-align: center;
 }
 
-.gallery img {
-    weight: 291px;
-    margin: 3px;
+.gallery-top {
+  color: var(--main-text-color);
+  text-align: center;
 }
 
-.main-gallery {
-  align-items: center;
+h2 .gallery-top {
+  font-size: 34px;
+  font-family: 'Playfair Display', serif;
+}
+
+p .gallery-top {
+  color: #515c6d;
+  font-size: 15px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.main-block-gallery {
+  background-color: var(--background-color-white);
+  width: 100%;
+  display: grid;
+  gap: 10px;
   justify-content: center;
-  margin: 0 15px 0 15px;
-  display: flex;
-  position: relative;
-  z-index: 1;
+  align-items: center;
+  padding-top: 50px;
 }
 
-@media (min-widht: 640px) {
-    .main-gallery {
-          flex-direction: row;
-          align-items: center;
-          justify-content: space-around;
-          flex: 1;
-        }
-      }
+@media (min-width: 640px) {
+  .main-block-gallery {
+      grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 860px) {
+  .main-block-gallery {
+      grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 980px) {
+  .main-block-gallery {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+.gallery {
+margin:6px;
+width: 100%
+}
+
 
 .section-yachtsail-trips {
         color: #fff;
