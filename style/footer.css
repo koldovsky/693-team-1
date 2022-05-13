@@ -75,3 +75,14 @@ a:hover {
     color: var(--background-color-white);
     margin-top: 30px;
 }
+
+.media_links {
+    display:flex;
+    margin-top: 20px;
+
+}
+
+.media_links  img {
+    width: 35px;
+    padding-right:5px;
+}
