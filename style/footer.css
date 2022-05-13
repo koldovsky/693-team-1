@@ -1,0 +1,14 @@
+
+footer {
+    background-color:var( --background-color-nav) ;
+
+}
+
+.yacht_logo {
+    display: flex;
+    justify-content: center;
+}
+
+.yacht_logo img {
+ width: 176px;
+}
