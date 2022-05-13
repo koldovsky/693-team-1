@@ -13,12 +13,13 @@
 }
 
 .header__banner {
-    display: flex;
-    justify-content: center;
     background-image: url(../img/header/header-banner-background.jpeg);
     background-size: cover;
     background-position: center;
     min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .header__banner-h1 {

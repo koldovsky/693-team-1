@@ -1,7 +1,7 @@
 .our-fleet {
     text-align: center;
     color: rgb(37, 54, 74);
-    margin: 0;
+    margin: 10px;
     padding: 0;
     border: 0;
 }
@@ -13,29 +13,32 @@
 
 .our-fleet_nameship {
     font-size: 24px;
+    font-size: auto;
 }
 
 .block {
     text-align: center;
     font-size: auto;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 140px;
 }
 
 
 
 .photo_ship {
     border: 5px solid rgb(255, 255, 255);
-    padding: 15px;
-    margin:10px;
+    padding: 10px;
+
     background-color: white;
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
     
 }
 
 .our-fleet_image {
-    height: 80%;
+    height: 75%;
     width: 100%;
 }
 
@@ -44,7 +47,8 @@
         display: grid;
         grid-template-columns: 1fr;
         text-align: center;
-        gap: 2px;
+        gap: 4px;
+        
     }
 }
 
@@ -59,11 +63,15 @@
     .block {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+        margin: 0 100px 0 100px;
+        margin-bottom: 130px;
     }
 }
 
+
+
 .button_choose {
-    margin-top: 30px;
+    margin-top: -70px;
     border-radius: 20px;
     border: 2px solid rgb(209, 172, 104);
     background-color: transparent;
@@ -82,12 +90,24 @@
     background-color: rgb(209, 172, 104);
 
 }
+.our-fleet-button{
+    display: flex;
+    justify-content: center;
+}
 
+.our-fleet-text{
+    margin: 10px;
+}
 
 .container-our-fleet{
-   background-image: url(/img/our-fleet/background.jpg);
-
+   background-image: url(/img/our-fleet/background_white.jpg);
+   margin-bottom: 90px;
 }
+.header{
+    height:50px;
+    margin-bottom: 20px;
+}
+
 
 
  
