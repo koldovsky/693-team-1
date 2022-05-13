@@ -45,11 +45,11 @@ footer {
     text-decoration: none;
     color: var(--background-color-white);
     margin-top: 10px;
-    
+
 }
 
- a:hover {
-    color:var(--text-color);
+a:hover {
+    color: var(--text-color);
 }
 
 .footer_nav_second {
@@ -63,10 +63,11 @@ footer {
 .footer_nav_second a {
     text-decoration: none;
     color: var(--background-color-white);
-    margin-top: 10px; 
+    margin-top: 10px;
 }
+
 a:hover {
-    color:var(--text-color);
+    color: var(--text-color);
 }
 
 
@@ -76,13 +77,66 @@ a:hover {
     margin-top: 30px;
 }
 
+
 .media_links {
-    display:flex;
+    display: flex;
     margin-top: 20px;
 
 }
 
-.media_links  img {
+.media_links img {
     width: 35px;
-    padding-right:5px;
+    padding-right: 5px;
+}
+
+.subscribe_form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.form_text {
+    color: var(--text-color-white);
+}
+
+
+.footer_form_input {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    height: 40px;
+    width: 234px;
+    color: rgb(85, 78, 78);
+    background: rgb(217, 216, 216);
+    border: none;
+    text-align: center;
+
+}
+
+.footer_btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    height: 40px;
+    width: 234px;
+    border-radius: 20px;
+    border: none;
+    color: var(--text-color-white);
+    background: var(--text-color);
+}
+/* must add buttom block */
+
+@media (min-width:768px) {
+    footer {
+        display:grid;
+       
+
+    }
 }
