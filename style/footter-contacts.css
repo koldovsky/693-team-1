@@ -1,7 +1,9 @@
 
 .footer-contacts{
+    justify-content: center;
     background: rgb(53, 53, 130);
 }
+
 
 .footter-text-contact{
     box-sizing: border-box;
@@ -12,22 +14,40 @@
     padding-bottom: 50px;
 }
 
-.address{
+.footter-text-contact p{
+    color: white;
+}
+
+.footter-text-contact h3{
+    color: white;
+}
+
+.footer-address{
     box-sizing: border-box;
+    border-radius: 40px;
     width: 273px;
-    background: white;
+    text-align: center;
     margin-left: 16px;
     margin-bottom: 20px;
+    background: white;
 }
 
-.address h4{
+.footer-address h4{
     text-align: center;
     color:black
 }
 
-.address p{
+.footer-address p{
     text-align: center;
     color:black
+}
+
+.social-media{
+    margin-top: 40px;
+}
+
+.social-media a{
+    padding-right: 10px;
 }
 
 .footer-form{
@@ -36,6 +56,12 @@
     height: 350px;
     background: white;
     margin-left: 16px;
+}
+
+.footer-form{
+    margin-top: 40px;
+    border-radius: 40px;
+    height: 365px;
 }
 
 .form{
@@ -62,4 +88,10 @@
     border: none;
     color: white;
     background: rgb(209, 172, 104);
+}
+
+@media (min-width: 500px) {
+    .footer-contacts {
+        display: flex;
+    }
 }
