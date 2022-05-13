@@ -1,0 +1,35 @@
+@import url(comon.css);
+
+.header__contacts {
+    background-color: var (--background-color-white);
+    display: flex;
+    justify-content: space-around;
+}
+
+.header__top-navigation {
+    background-color: var (--background-color-nav);
+    display: flex;
+    justify-content: space-around;
+}
+
+.header__banner {
+    background-image: url(../img/header/header-banner-background.jpeg);
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header__banner-h1 {
+    color: var (--text-color-white);
+}
+
+.subheader {
+    color: var (--text-color-white);
+}
+
+.link {
+    color: var (--text-color-white);
+}
