@@ -1,8 +1,9 @@
 
 .footer-contacts{
-    background: rgb(53, 53, 130);
     justify-content: center;
+    background: rgb(53, 53, 130);
 }
+
 
 .footter-text-contact{
     box-sizing: border-box;
