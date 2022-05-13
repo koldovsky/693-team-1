@@ -68,3 +68,10 @@ footer {
 a:hover {
     color:var(--text-color);
 }
+
+
+
+.media_footer {
+    color: var(--background-color-white);
+    margin-top: 30px;
+}
