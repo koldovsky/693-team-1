@@ -1,6 +1,7 @@
 
 .footer-contacts{
     background: rgb(53, 53, 130);
+    justify-content: center;
 }
 
 .footter-text-contact{
@@ -62,4 +63,10 @@
     border: none;
     color: white;
     background: rgb(209, 172, 104);
+}
+
+@media (min-width: 500px) {
+    .footer-contacts {
+        display: flex;
+    }
 }
