@@ -9,3 +9,24 @@
     display: flex;
     justify-content: space-around;
 }
+
+.header__banner {
+    display: flex;
+    justify-content: center;
+    background-image: url(../img/header/header-banner-background.jpeg);
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+}
+
+.header__banner-h1 {
+    color: var (--text-color-white);
+}
+
+.subheader {
+    color: var (--text-color-white);
+}
+
+.link {
+    color: var (--text-color-white);
+}
