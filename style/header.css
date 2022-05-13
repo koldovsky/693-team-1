@@ -1,9 +1,10 @@
 @import url(comon.css);
 
+
 .header__contacts {
-    background-color: var (--background-color-white);
-    display: flex;
-    justify-content: space-around;
+    background-color: var(--background-color-nav);
+    /* display: flex;
+    justify-content: space-between; */
 }
 
 .header__top-navigation {
@@ -32,4 +33,12 @@
 
 .link {
     color: var (--text-color-white);
+}
+
+.header__top-navigation-links {
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 15px;
 }
