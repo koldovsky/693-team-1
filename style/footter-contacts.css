@@ -42,6 +42,14 @@
     color:black
 }
 
+.social-media{
+    margin-top: 40px;
+}
+
+.social-media a{
+    padding-right: 10px;
+}
+
 .footer-form{
     box-sizing: border-box;
     width: 273px;
