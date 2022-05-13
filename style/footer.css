@@ -1,14 +1,35 @@
 
 footer {
     background-color:var( --background-color-nav) ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top:60px;
 
 }
 
 .yacht_logo {
-    display: flex;
-    justify-content: center;
+   
 }
 
 .yacht_logo img {
  width: 176px;
+}
+
+.footer_content {
+    box-sizing: border-box;
+    width: 272px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    
+
+    
+}
+.footer_text {
+    text-align: center;
+    color: var(--background-color-white);
+  
 }
