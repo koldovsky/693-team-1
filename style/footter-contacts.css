@@ -14,20 +14,30 @@
     padding-bottom: 50px;
 }
 
-.address{
-    box-sizing: border-box;
-    width: 273px;
-    background: white;
-    margin-left: 16px;
-    margin-bottom: 20px;
+.footter-text-contact p{
+    color: white;
 }
 
-.address h4{
+.footter-text-contact h3{
+    color: white;
+}
+
+.footer-address{
+    box-sizing: border-box;
+    border-radius: 40px;
+    width: 273px;
+    text-align: center;
+    margin-left: 16px;
+    margin-bottom: 20px;
+    background: white;
+}
+
+.footer-address h4{
     text-align: center;
     color:black
 }
 
-.address p{
+.footer-address p{
     text-align: center;
     color:black
 }
@@ -38,6 +48,12 @@
     height: 350px;
     background: white;
     margin-left: 16px;
+}
+
+.footer-form{
+    margin-top: 40px;
+    border-radius: 40px;
+    height: 365px;
 }
 
 .form{
