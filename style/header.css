@@ -1,5 +1,11 @@
-. header__contacts{
+.header__contacts {
     background-color: var (--background-color-white);
+    display: flex;
+    justify-content: space-around;
+}
+
+.header__top-navigation {
+    background-color: var (--background-color-nav);
     display: flex;
     justify-content: space-around;
 }
