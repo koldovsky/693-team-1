@@ -1,3 +1,5 @@
+@import url(comon.css);
+
 .header__contacts {
     background-color: var (--background-color-white);
     display: flex;
