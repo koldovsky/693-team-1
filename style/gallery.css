@@ -52,16 +52,42 @@ align-items: stretch;
 
 /*section two*/
 
-.section-yachtsail-trips {
-  color: #fff;
-  padding-top: 90px;
-  padding-bottom: 90px;
-  background-color: var(--background-color-wrap);
-  display: grid;
-
+.section-yachtsail-trips-text h2 {
+  font-size: 34px;
 }
-@media (min-width: 640 px) {
-   .section-yachtsail-trips{
-      grid-template-columns: 1fr 1fr;
-   }
+
+.section-yachtsail-trips-text {
+  font-family: 'Playfair Display', serif;
+  color: white;
+  text-align: left;
+  font-size: 16px;
+  background-color: var(--background-color-wrap);
+  display: flex;
+  flex-direction: column;
+  vertical-align: middle;
+  align-items: left;
+}
+
+@media (min-width: 640px) {
+  .section-yachtsail-trips {
+      display: flex;
+  }
+}
+
+
+.section-yachtsail-trips-button {
+  width: 150px;
+  height: 40px;
+  background: var(--text-color-hover);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15px;
+}
+
+.link, .section-yachtsail-trips-button {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
 }
