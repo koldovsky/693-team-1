@@ -6,14 +6,14 @@
   text-align: center;
 }
 
-h2 .gallery-top {
+.gallery-top h2 {
   font-size: 34px;
   font-family: 'Playfair Display', serif;
 }
 
-p .gallery-top {
+.gallery-top p {
   color: #515c6d;
-  font-size: 15px;
+  font-size: 16px;
   font-family: 'Raleway', sans-serif;
 }
 
@@ -44,15 +44,28 @@ p .gallery-top {
   }
 }
 
+.gallery-block {
+width:250px;
+height: 600px;
+}
+
+.gallery-one {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
 .gallery {
 margin:6px;
 align-items: stretch;
 }
   
-img .gallery {
+.gallery img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: 50% 50%;
 }
 
 @media (min-width: 640px) {
@@ -67,10 +80,14 @@ img .gallery {
 
 .section-yachtsail-trips-text h2 {
   font-size: 34px;
+  font-family: 'Playfair Display', serif;
+  color: white;
+  text-align: left;
+  background-color: var(--background-color-wrap);
 }
 
-.section-yachtsail-trips-text {
-  font-family: 'Playfair Display', serif;
+.section-yachtsail-trips-text p{
+  font-family: 'Raleway', sans-serif;
   color: white;
   text-align: left;
   font-size: 16px;
