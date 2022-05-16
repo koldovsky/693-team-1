@@ -139,9 +139,9 @@ align-items: stretch;
 /*section two*/
 
 .section-yachtsail-trips {
-  background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(52, 47, 104, 0.5)), url(../img/gallery/background-sea-surfers.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/gallery/background-sea-surfers.jpg);
   background-size: cover;
-  position: relative;
+  background-position: center;
   -webkit-background-size: cover;
   margin-top: 30px;
 }
@@ -162,6 +162,7 @@ align-items: stretch;
   flex-direction: column;
   vertical-align: middle;
   align-items: left;
+  margin-top: 20px;
 }
 
 .section-yachtsail-trips-text {
