@@ -42,15 +42,6 @@
   }
 }
 
-
-.gallery-block-item-one {
-  background-image: url(https://res2.weblium.site/res/5d19d5bfebce72002395bd3f/5d245d89ed37e00028d3966f_optimized_1520_c1520x855-0x0?nowebp);
-}
-
-.gallery-block-item-two {
-  background-image: url(https://res2.weblium.site/res/5d19d5bfebce72002395bd3f/5d244d6edfa82300249aac5c_optimized_1019?nowebp);
-}
-
 @media (min-width: 980px): {
 .gallery-block-item-one {
   width: 270px;
