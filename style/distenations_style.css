@@ -1,6 +1,8 @@
 .header_body{
     text-align: center;
+
 }
+
 .first{
  font-weight: bolder;
  font-size: 3em;
@@ -125,10 +127,12 @@
 .button_under_cart{
     text-align: center;
     margin: 30px;
+    margin-bottom: 20px;
 }
 .button_under_cart button {
     background-color: darksalmon;
     border-radius: 20px;
+    
 }
 .button_under_cart label{
     font-size: 20px;
