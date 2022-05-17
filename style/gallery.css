@@ -17,6 +17,12 @@
   font-family: 'Raleway', sans-serif;
 }
 
+.gallery-block-item-seven{
+  background: url(../img/gallery/view-on-the-mountains.jpg);
+  height: 100%;
+  background-position: 50% 50%;
+}
+
 .main-block-gallery {
   background-color: var(--background-color-white);
   display: grid;
@@ -86,7 +92,12 @@
 @media (min-width: 980px): {
   .gallery-block-item-seven {
     width: 270px;
-    height: 560px;
+  }
+}
+
+@media (min-width: 980px): {
+  .gallery-block-column-four {
+    height: 100vh;
   }
 }
 
