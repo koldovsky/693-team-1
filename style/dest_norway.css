@@ -1,0 +1,15 @@
+.norway-global{
+    margin: 10px 10px 10px 10px;
+}
+.norway-image{
+    width: 800px;
+    height: 480px;
+    margin: auto;
+}
+.norway-image img{
+    width: 100%;
+    border: 2px solid black;
+}
+.norway-but{
+ text-align: center;
+}
