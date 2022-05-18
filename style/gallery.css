@@ -21,9 +21,105 @@
   background-color: var(--background-color-white);
   display: grid;
   gap: 30px;
-  padding-top: 10px;
 }
 
+.gallery-block-item-one {
+    background: url(../img/gallery/main-yacht.jpg);
+    height: 332px;
+    width: 270px;
+    background-position: 60% 50%;
+    background-size: cover;
+    margin: 100px 30px 20px 260px;
+  }
+
+.gallery-block-item-two {
+    background: url(../img/gallery/boy-on-the-yacht.jpg);
+    height: 208px;
+    width: 270px;
+    background-position: 50% 50%;
+    background-size: cover;
+    margin: 0 30px 100px 260px;
+  }
+
+.gallery-block-item-three {
+    background: url(../img/gallery/girl-on-the-yacht.jpeg);
+    height: 218px;
+    width: 270px;
+    background-position: 50% 50%;
+    background-size: cover;
+    margin: 100px 30px 20px 0;
+  }
+
+.gallery-block-item-four {
+    background: url(../img/gallery/watching-yachts.jpg);
+    height: 322px;
+    width: 270px;
+    background-position: 50% 50%;
+    background-size: cover;
+    margin: 0 30px 100px 0;
+  }
+
+.gallery-block-item-five {
+    background: url(../img/gallery/view-from-the-yacht.jpg);
+    height: 330px;
+    width: 270px;
+    background-position: 50% 50%;
+    background-size: cover;
+    margin: 100px 30px 20px 0;
+  }
+
+.gallery-block-item-six {
+    background: url(../img/gallery/friends-on-the-yacht.jpg);
+    height: 210px;
+    width: 270px;
+    background-position: 50% 50%;
+    background-size: cover;
+    margin: 0 30px 100px 0;
+  }
+
+.gallery-block-item-seven {
+  background: url(../img/gallery/view-on-the-mountains.jpg);
+  height: 560px;
+  width: 270px;
+  background-position: 45% 55%;
+  background-size: cover;
+  margin: 100px 260px 100px 0;
+}
+
+
+/*
+@media (min-width: 980px): {
+  .gallery-block-column-one {
+    height: 560px;
+  }
+}
+
+@media (min-width: 980px): {
+  .gallery-block-column-two {
+    height: 560px;
+  }
+}
+
+@media (min-width: 980px): {
+  .gallery-block-column-three {
+    height: 560px;
+  }
+}
+
+@media (min-width: 980px): {
+  .gallery-block-column-four {
+    height: 560px;
+  }
+}
+
+@media (min-width: 980px) {
+  .main-block-gallery {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+*/
+
+/* don't forget
 @media (min-width: 640px) {
   .main-block-gallery {
       grid-template-columns: 1fr 1fr;
@@ -36,11 +132,6 @@
   }
 }
 
-@media (min-width: 980px) {
-  .main-block-gallery {
-      grid-template-columns: 1fr 1fr 1fr 1fr;
-  }
-}
 
 @media (min-width: 980px): {
 .gallery-block-item-one {
@@ -86,10 +177,11 @@
 @media (min-width: 980px): {
   .gallery-block-item-seven {
     width: 270px;
-    height: 560px;
   }
 }
 
+
+*/
 
 
 /*
@@ -141,10 +233,15 @@ align-items: stretch;
 .section-yachtsail-trips {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/gallery/background-sea-surfers.jpg);
   background-size: cover;
-  background-position: center;
-  -webkit-background-size: cover;
   margin-top: 30px;
+  display: grid;
 }
+
+@media (min-width: 980px) {
+  .section-yachtsail-trips {
+        grid-template-columns: 1.2fr 0.8fr;
+    }
+  }
 
 .section-yachtsail-trips-text h2 {
   font-size: 34px;
@@ -170,11 +267,13 @@ align-items: stretch;
   z-index: 2
 }
 
+/*
 @media (min-width: 640px) {
   .section-yachtsail-trips {
       display: flex;
   }
 }
+*/
 
 .section-yachtsail-trips-button {
   width: 150px;
@@ -207,8 +306,10 @@ align-items: stretch;
 }
 
 .section-yachtsail-trips-image {
-  background-color: white;
-  padding: 30px;
-  justify-content: space-around;
-  align-items: center;
+  background: url(../img/gallery/girls-on-the-board.jpg);
+  background-size: cover;
+  background-position: 50% 85%;
+  border-color: white;
+  border-width: 20px;
 }
+

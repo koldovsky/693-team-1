@@ -1,18 +1,41 @@
 @import url(comon.css);
 
+.header {
+    height: 100vh;
+    margin-bottom: 20px;
+}
 
 .header__contacts {
-    background-color: var(--background-color-nav);
+    background-color: var(--background-color-white);
     /* display: flex;
     justify-content: space-between; */
 }
 
 .header__top-navigation {
-    background-color: var (--background-color-nav);
     display: flex;
+    background-color: var (--background-color-nav);
     justify-content: space-around;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
 }
 
+.yacht-logo {
+    margin: auto
+    display: block;
+    width: 100%;
+    justify-content: flex-start;
+    background-color: var (--background-color-nav);
+}
+
+.header__top-navigation-links {
+    justify-content: space-around;
+    align-items: center;
+}
+
+/*
 .header__banner {
     background-image: url(../img/header/header-banner-background.jpeg);
     background-size: cover;
@@ -22,23 +45,4 @@
     flex-direction: column;
     justify-content: center;
 }
-
-.header__banner-h1 {
-    color: var (--text-color-white);
-}
-
-.subheader {
-    color: var (--text-color-white);
-}
-
-.link {
-    color: var (--text-color-white);
-}
-
-.header__top-navigation-links {
-    margin: 0;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    column-gap: 15px;
-}
+*/
