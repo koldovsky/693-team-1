@@ -27,7 +27,8 @@
     background: url(../img/gallery/main-yacht.jpg);
     height: 332px;
     width: 270px;
-    background-position: 50% 50%;
+    background-position: 60% 50%;
+    background-size: cover;
     margin: 100px 30px 20px 260px;
   }
 
@@ -36,6 +37,7 @@
     height: 208px;
     width: 270px;
     background-position: 50% 50%;
+    background-size: cover;
     margin: 0 30px 100px 260px;
   }
 
@@ -44,6 +46,7 @@
     height: 218px;
     width: 270px;
     background-position: 50% 50%;
+    background-size: cover;
     margin: 100px 30px 20px 0;
   }
 
@@ -52,6 +55,7 @@
     height: 322px;
     width: 270px;
     background-position: 50% 50%;
+    background-size: cover;
     margin: 0 30px 100px 0;
   }
 
@@ -60,6 +64,7 @@
     height: 330px;
     width: 270px;
     background-position: 50% 50%;
+    background-size: cover;
     margin: 100px 30px 20px 0;
   }
 
@@ -68,6 +73,7 @@
     height: 210px;
     width: 270px;
     background-position: 50% 50%;
+    background-size: cover;
     margin: 0 30px 100px 0;
   }
 
@@ -75,10 +81,13 @@
   background: url(../img/gallery/view-on-the-mountains.jpg);
   height: 560px;
   width: 270px;
-  background-position: 50% 50%;
+  background-position: 45% 55%;
+  background-size: cover;
   margin: 100px 260px 100px 0;
 }
 
+
+/*
 @media (min-width: 980px): {
   .gallery-block-column-one {
     height: 560px;
@@ -108,7 +117,7 @@
       grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }
-
+*/
 
 /* don't forget
 @media (min-width: 640px) {
@@ -224,8 +233,6 @@ align-items: stretch;
 .section-yachtsail-trips {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/gallery/background-sea-surfers.jpg);
   background-size: cover;
-  background-position: center;
-  -webkit-background-size: cover;
   margin-top: 30px;
   display: grid;
 }
@@ -259,6 +266,7 @@ align-items: stretch;
   position: relative;
   z-index: 2
 }
+
 /*
 @media (min-width: 640px) {
   .section-yachtsail-trips {
@@ -299,8 +307,8 @@ align-items: stretch;
 
 .section-yachtsail-trips-image {
   background: url(../img/gallery/girls-on-the-board.jpg);
-  
-  background-position: 50% 50%;
+  background-size: cover;
+  background-position: 50% 85%;
   border-color: white;
   border-width: 20px;
 }
