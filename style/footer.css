@@ -5,10 +5,11 @@ footer {
     justify-content: center;
     align-items: center;
     padding-top: 60px;
+    padding-bottom: 60px;
 
 }
 
-.yacht_logo {}
+
 
 .yacht_logo img {
     width: 176px;
@@ -132,6 +133,7 @@ a:hover {
     justify-content: center;
     align-items: center;
     margin-top: 20px;
+    margin-bottom: 20px;
     height: 40px;
     width: 234px;
     border-radius: 20px;
@@ -140,7 +142,17 @@ a:hover {
     background: var(--text-color);
 }
 
-/* must add buttom block */
+.footer_text_rights {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--background-color-nav);
+    color: var(--text-color);
+}
+
+
+
 
 @media (min-width:768px) {
     .footer {
@@ -158,8 +170,18 @@ a:hover {
 
     }
 
+    .footer_text_rights {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
 
+    .create {
+        margin-left: 80px;
+        
+    }
 
-
-
+    .rights {
+        margin-right: 100px;
+    }
 }
