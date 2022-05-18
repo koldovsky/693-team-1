@@ -17,30 +17,59 @@
     display: flex;
     background-color: var(--background-color-nav);
     justify-content: space-around;
-    position: absolute;
-    width: 100%;
+    align-items: baseline;
+    /* position: absolute; */
+    /* width: 100%; */
 }
 
 .header__top-navigation-logo {
+    padding-top: 20px;
     width: 176px;
     height: auto;
-    justify-content: flex-start;
     background-color: var(--background-color-nav);
 }
 
 .header__top-navigation-links {
-    justify-content: space-around;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 
+.header__top-navigation-links a{
+    text-decoration: none;
+    padding-right: 20px;
+    color: white;
+    font-size: 36px;
+}
+
 .header__banner {
-    position: absolute;
+    /* position: absolute; */
     width: 100%;
     height: auto;
-    margin-top: 100px;
+    /* margin-top: 100px; */
     text-align: center;
-    background-image: url(../img/header/header-banner-background.jpeg);
+    background-image: url(header-banner-background.jpeg);
     background-size: cover;
     background-position: center;
-    min-height: 400px;
+    height: 1500px;
+}
+
+.header__banner-h1 {
+    padding-top: 400px;
+    font-size: 156px;
+    color: white;
+}
+
+
+.btn-send{
+    width: 200px;
+    height: 70px;
+    border-radius: 20px;
+    background: #dca822;
+    border: none;
+}
+
+.btn-send span{
+    color: white;
+    font-size: 26px;
 }
