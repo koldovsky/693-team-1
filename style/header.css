@@ -1,8 +1,7 @@
 @import url(comon.css);
 
-
 .header__contacts {
-    background-color: var(--background-color-nav);
+    background-color: var(--background-color-white);
     /* display: flex;
     justify-content: space-between; */
 }
@@ -13,6 +12,12 @@
     justify-content: space-around;
 }
 
+.yacht-logo {
+    width: 176px;
+    height: 100%;
+    justify-content: flex-start;
+}
+
 .header__banner {
     background-image: url(../img/header/header-banner-background.jpeg);
     background-size: cover;
@@ -21,18 +26,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
-
-.header__banner-h1 {
-    color: var (--text-color-white);
-}
-
-.subheader {
-    color: var (--text-color-white);
-}
-
-.link {
-    color: var (--text-color-white);
 }
 
 .header__top-navigation-links {
