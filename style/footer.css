@@ -89,10 +89,12 @@ a:hover {
 
 }
 
+
+
 .media_links img {
     width: 35px;
     padding-right: 5px;
-    
+
 }
 
 .subscribe_form {
@@ -137,27 +139,27 @@ a:hover {
     color: var(--text-color-white);
     background: var(--text-color);
 }
+
 /* must add buttom block */
 
 @media (min-width:768px) {
     .footer {
         display: flex;
-        flex-direction:row;
+        flex-direction: row;
         justify-content: space-around;
-        
+
     }
 
     .footer_logo {
-     display: flex;
-     flex-direction: column;
-     
-     
+        display: flex;
+        flex-direction: column;
+
+
 
     }
 
 
 
-       
 
-    }
+
 }

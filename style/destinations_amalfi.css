@@ -1,11 +1,13 @@
 .global-page{
     margin: 10px 10px 10px 10px;
+    
 }
-.image-card{
-   display: grid;
-   grid-template-areas: '1fr 1fr';
-   gap: 20px;
+.inform-card{
+    display: grid;
+    grid-template-areas: '1fr 1fr';
+    gap: 20px;
 }
+
 .image-card img{
     width: 100%;
     margin-top: 20px;
