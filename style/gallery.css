@@ -19,8 +19,23 @@
 
 .main-block-gallery {
   background-color: var(--background-color-white);
-  display: grid;
-  gap: 30px;
+  margin-top: 20px;
+  /*align-items: center;*/
+}
+
+.gallery-block-column-one {
+  margin: 25px;
+}
+
+.gallery-block-column-two {
+  margin: 25px;
+}
+.gallery-block-column-three {
+  margin: 25px;
+}
+
+.gallery-block-column-four {
+  margin: 25px;
 }
 
 .gallery-block-item-one {
@@ -29,7 +44,8 @@
     width: 270px;
     background-position: 60% 50%;
     background-size: cover;
-    margin: 100px 30px 20px 260px;
+    margin-bottom: 15px;
+    /*margin: 100px 30px 20px 260px;*/
   }
 
 .gallery-block-item-two {
@@ -38,7 +54,8 @@
     width: 270px;
     background-position: 50% 50%;
     background-size: cover;
-    margin: 0 30px 100px 260px;
+    margin-bottom: 15px;
+    /*margin: 0 30px 100px 260px;*/
   }
 
 .gallery-block-item-three {
@@ -47,7 +64,8 @@
     width: 270px;
     background-position: 50% 50%;
     background-size: cover;
-    margin: 100px 30px 20px 0;
+    margin-bottom: 15px;
+    /*margin: 100px 30px 20px 0;*/
   }
 
 .gallery-block-item-four {
@@ -56,7 +74,8 @@
     width: 270px;
     background-position: 50% 50%;
     background-size: cover;
-    margin: 0 30px 100px 0;
+    margin-bottom: 15px;
+    /*margin: 0 30px 100px 0;*/
   }
 
 .gallery-block-item-five {
@@ -65,7 +84,8 @@
     width: 270px;
     background-position: 50% 50%;
     background-size: cover;
-    margin: 100px 30px 20px 0;
+    margin-bottom: 15px;
+    /*margin: 100px 30px 20px 0;*/
   }
 
 .gallery-block-item-six {
@@ -74,7 +94,8 @@
     width: 270px;
     background-position: 50% 50%;
     background-size: cover;
-    margin: 0 30px 100px 0;
+    margin-bottom: 15px;
+    /*margin: 0 30px 100px 0;*/
   }
 
 .gallery-block-item-seven {
@@ -83,164 +104,49 @@
   width: 270px;
   background-position: 45% 55%;
   background-size: cover;
-  margin: 100px 260px 100px 0;
+  margin-bottom: 15px;
+  /*margin: 100px 260px 100px 0;*/
 }
 
-
-/*
-@media (min-width: 980px): {
-  .gallery-block-column-one {
-    height: 560px;
-  }
-}
-
-@media (min-width: 980px): {
-  .gallery-block-column-two {
-    height: 560px;
-  }
-}
-
-@media (min-width: 980px): {
-  .gallery-block-column-three {
-    height: 560px;
-  }
-}
-
-@media (min-width: 980px): {
-  .gallery-block-column-four {
-    height: 560px;
-  }
-}
-
-@media (min-width: 980px) {
-  .main-block-gallery {
-      grid-template-columns: 1fr 1fr 1fr 1fr;
-  }
-}
-*/
-
-/* don't forget
 @media (min-width: 640px) {
   .main-block-gallery {
-      grid-template-columns: 1fr 1fr;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /*align-items: center;*/ 
   }
 }
 
 @media (min-width: 860px) {
   .main-block-gallery {
-      grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /*align-items: stretch;*/
   }
 }
 
-
-@media (min-width: 980px): {
-.gallery-block-item-one {
-  width: 270px;
-  height: 332px;
- }
-}
-
-@media (min-width: 980px): {
-  .gallery-block-item-two {
-    width: 270px;
-    height: 208px;
+@media (min-width: 980px) {
+  .main-block-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 50px 130px 130px 50px;
+    /*align-items: stretch;*/
   }
 }
 
-@media (min-width: 980px): {
- .gallery-block-item-three {
-    width: 270px;
-    height: 218px;
-  }
-}
-
-@media (min-width: 980px): {
-  .gallery-block-item-four {
-    width: 270px;
-    height: 322px;
-  }
-}
-
-@media (min-width: 980px): {
-  .gallery-block-item-five {
-    width: 270px;
-    height: 330px;
-  }
-}
-
-@media (min-width: 980px): {
-  .gallery-block-item-six {
-    width: 270px;
-    height: 210px;
-  }
-}
-@media (min-width: 980px): {
-  .gallery-block-item-seven {
-    width: 270px;
-  }
-}
-
-
-*/
-
-
-/*
-.main-block-gallery > div > div {
-  height: 300px;
-}
-
-.main-block-gallery img {
-  width: 100%;
-}
-
-.gallery-block-column-one {
-background-color: red;
-}
-
-.gallery-block-column-two {
-  background-color: green;
-  }
-
-.gallery-block-column-three {
-  background-color: yellow;
-  }
-    
-.gallery-block-column-four {
-    background-color: blue;
-    }
-    
-
-
-
-
-.gallery {
-margin:6px;
-align-items: stretch;
-}
-  
-
-@media (min-width: 640px) {
-  .gallery-block div img  {
-   width: 100%;
-   height: 100%;
-   object-fit: cover;
-}
-}
-*/
 
 /*section two*/
 
 .section-yachtsail-trips {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/gallery/background-sea-surfers.jpg);
   background-size: cover;
-  margin-top: 30px;
-  display: grid;
-  
+  /*margin-top: 30px;
+  display: grid;*/
 }
 
-@media (min-width: 980px) {
+@media (min-width: 770px) {
   .section-yachtsail-trips {
-        grid-template-columns: 1.25fr 0.75fr;
+    display: grid;
+    grid-template-columns: 1.25fr 0.75fr;
     }
   }
 
@@ -256,26 +162,18 @@ align-items: stretch;
   color: white;
   text-align: left;
   font-size: 16px;
-  display: flex;
+  /*display: flex;
   flex-direction: column;
   vertical-align: middle;
-  align-items: left;
+  align-items: left;*/
   margin-top: 20px;
 }
 
 .section-yachtsail-trips-text {
   position: relative;
   z-index: 2;
-  margin: 100px 0 100px 235px;
+  /*margin: 100px 0 100px 235px;*/
 }
-
-/*
-@media (min-width: 640px) {
-  .section-yachtsail-trips {
-      display: flex;
-  }
-}
-*/
 
 .section-yachtsail-trips-button {
   width: 150px;
@@ -318,6 +216,6 @@ align-items: stretch;
   border-bottom: 10px solid;
   height: 340px;
   width: 510px;
-  margin: 100px 235px 100px 35px;
+ /* margin: 100px 235px 100px 35px;*/
 }
 
