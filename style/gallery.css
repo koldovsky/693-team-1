@@ -221,3 +221,51 @@
 .section-yachtsail-trips-text {
   grid-auto-rows: auto;
 }
+
+/*header and footer*/
+.header_nav-wrap {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    width: 90%;
+    max-width: 1400px;
+    margin: auto;
+}
+
+nav {
+    font-family: 'Raleway', sans-serif;
+}
+
+footer {
+    background-color: var(--background-color-nav);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: var(--bs-body-font-family);
+    font-size: var(--bs-body-font-size);
+    font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height);
+    color: var(--bs-body-color);
+    text-align: var(--bs-body-text-align);
+    background-color: var(--bs-body-bg);
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
