@@ -10,17 +10,53 @@
 </head>
 
 <body>
-    <header class="header">
+   <header class="header">
+    <div class="header-top container">
         <nav class="header__contacts">
-            <a href="tel:12345678900">1-234-567-8900</a>
-            <div>
-
+            <div class="header__contacts-tel">
+                <a href="tel:12345678900">+1-234-567-8900</a>
+            </div>
+            <div class="header__contacts-icons">
+                <div class="header__contacts-social">
+                    <a href="https://twitter.com">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                </div>
+                <div class="header__contacts-social">
+                    <a href="https://facebook.com">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+                <div class="header__contacts-social">
+                    <a href="https://instagram.com">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </div>
             </div>
         </nav>
-        <nav class="header__top-navigation"></nav>
-        <div class="header__banner__gallery"></div>
-        <div class="header__banner__our-travels"></div>
-    </header>
+    </div>
+    <nav class="header_nav">
+        <div class="header_nav-wrap container">
+            <div class="header-nav__logo">
+                <img class="header-nav__logo-img" src="img/our-service/yacht_logo.svg"
+                     alt="Yacht Logo"></div>
+            <div class="header_nav-links">
+                <div class="header__top-navigation-links">
+                    <a class="link" href="destinations.html">Destinations</a>
+                    <a class="link" href="services.html">Our services</a>
+                    <a class="link" href="our-fleet.html">Our fleet</a>
+                    <a class="link" href="gallery.html">Gallery</a>
+                    <a class="link" href="faq.html">FAQ</a>
+                    <a class="link" href="about-us.html">About Us</a>
+                    <a class="link" href="contacts.html">Contacts</a>
+                </div>
+                <div class="header__top-navigation-button">
+                    <a class="header__top-navigation-button" href="contacts.html">Send a Request</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
     <main class="gallery">
         <div class="gallery">
         <div class="gallery-top">
@@ -66,8 +102,60 @@
         </div>
     </section>
     </main>
-    <footer>
-
+    <footer class="footer">
+        <div class="footer_logo">
+            <div class="yacht_logo">
+                <img src="img/header/yacht-logo.svg" alt="yacht">
+            </div>
+            <div class="footer_content">
+                <span class="footer_text">
+                    For 5 years now we have been gathering groups of tourists and going to amazing yacht trips.
+                </span>
+            </div>
+        </div>
+        <div class="footer_nav">
+            <a href="destination.html">Destinations</a>
+            <a href="our-fleet.html">Our fleet</a>
+            <a href="faq.html">FAQ</a>
+            <a href="contacts.html">Contacts</a>
+        </div>
+        <div class="footer_nav_second">
+            <a href="our-services.html">Our services</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="about-us.html">About us</a>
+        </div>
+        <div class="social_media_content">
+            <div class="media_footer">
+                <span class="media_text">
+                    Follow Us:
+                </span>
+            </div>
+            <div class="media_links">
+                <a href="https://twitter.com/?lang=uk"><img class="img_icon" src="img/footer/twitter-svgrepo-com.svg"
+                        alt="twitter"></a>
+                <a href="https://www.youtube.com/"><img class="img_icon" src="img/footer/youtube-svgrepo-com.svg"
+                        alt="youtube"></a>
+                <a href="https://www.instagram.com/"><img class="img_icon" src="img/footer/instagram-svgrepo-com.svg"
+                        alt="instagram"></a>
+            </div>
+        </div>
+        <div class="subscribe_form">
+            <span class="form_text">
+                Subscribe to get the latest news:
+            </span>
+            <form action="#" class="footer_form_subscribe">
+                <input type="email" placeholder="Email*" class="footer_form_input">
+                <button type="submit" class="footer_btn">Subscribe</button>
+            </form>
+        </div>
     </footer>
+    <div class="footer_text_rights">
+        <div class="create">
+            © Created by
+        </div>
+        <div class="rights">
+            All rights Reserved
+        </div>
+    </div>
 </body>
 </html>
