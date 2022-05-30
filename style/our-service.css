@@ -311,18 +311,30 @@ main {
     padding-top: 90px;
 }
 
-.accommodation_options_header_h2 {
+.accommodation_options_header_h2, .crew-services__header_h2, .payment-options__header_h2 {
     text-align: center;
     font-size: 34px;
     padding-bottom: 60px;
 }
 
-.accommodation_options_main_content_cabin_h3, .accommodation_options_main_content_yacht_h3 {
+.accommodation_options_main_content_cabin_h3,
+.accommodation_options_main_content_yacht_h3,
+.crew-services_content-captain-only_h3,
+.crew-services_content-captain-skipper_h3,
+.crew-services_content-all-inclusive_h3
+{
     text-align: center;
     font-size: 22px;
 }
 
-.accommodation_options_main_content_cabin_p, .accommodation_options_main_content_yacht_p {
+.accommodation_options_main_content_cabin_p,
+.accommodation_options_main_content_yacht_p,
+.crew-services_content-captain-only_p,
+.crew-services_content-captain-skipper_p,
+.crew-services_content-all-inclusive_p,
+.payment-options_content-10-30-60_p,
+.payment-options_content-early-booking_p
+{
     font-weight: 500;
     letter-spacing: 0.465px;
     line-height: 26.25px;
@@ -447,17 +459,64 @@ main {
         width: 30%;
     }
 
-    .accommodation_options_main_content {
+    .accommodation_options_main_content, .crew-services_content {
         display: flex;
         column-gap: 10px;
     }
 
-    .accommodation_options_main_content_wrap {
+    .accommodation_options_main_content_wrap, .crew-services_content-wrap {
         padding-right: 45px;
         padding-left: 45px;
     }
+    .payment-options_content {
+        display: flex;
+        column-gap: 30px;
+    }
+    .payment-options_content-10-30-60 {
+        margin-left: 20px;
+    }
+    .payment-options_content-early-booking {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
 }
+.crew-services_content-captain-only_h3,
+.crew-services_content-captain-skipper_h3,
+.crew-services_content-all-inclusive_h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.payment-options {
+    background-image: url(../img/our-service/background_section_payment_options.jpg);
+    background-size: cover;
+    max-height: 650px;
+    background-attachment: fixed;
 
+}
+.payment-options-wrap {
+    background-color: rgba(241, 240, 232, 0.95);
+    background-size: cover;
+    max-height: 650px;
+}
+.payment-options__header {
+    padding-top: 30px;
+    margin-top: 60px;
+}
+.payment-options_content-10-30-60,
+.payment-options_content-early-booking {
+    background-color: white;
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.payment-options_content-10-30-60_h3,
+.payment-options_content-early-booking_h3 {
+    text-align: left;
+    padding-left: 20px;
+}
+.payment-options_content {
+    padding-bottom: 50px;
+}
 
 
 
