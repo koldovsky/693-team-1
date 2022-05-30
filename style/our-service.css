@@ -4,67 +4,27 @@
 nav {
     font-family: 'Raleway', sans-serif;
 }
+
 .header-top {
     display: none;
 }
+
 .header_nav-links {
     display: none;
 }
-@media (min-width: 1000px) {
-    .header-top {
-        margin: auto;
-        display: block;
-        padding-bottom: 5px;
-        padding-left: 15px;
-        padding-right: 15px;
-        padding-top: 5px;
-    }
-    .header__contacts {
-        display: flex;
-        justify-content: space-between;
-    }
-    .header__contacts-icons {
-        display: flex;
-        column-gap: 10px;
-    }
-    .header__contacts-tel {
-        margin-left: 10px;
-        margin-right: 10px;
-        margin-top: 5px;
-    }
-    .header__contacts a {
-        font-size: 16px;
-        color: #d0bd8c;
-        text-decoration: none;
-    }
-    .header__contacts-social {
-        width: 25px;
-        height: 25px;
-        border: 1px solid black;
-        border-radius: 50%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .header__contacts-social a {
-        color: black;
-    }
-    .header_nav-links {
-        display: flex;
-        align-items: flex-end;
-        flex-direction: column;
-        justify-content: center;
-        gap: 10px;
-    }
-}
+
+
 .header_nav {
     background-color: var(--background-color-nav);
 }
+
 .header_nav-wrap {
     width: 90%;
     display: flex;
+    align-items: center;
     justify-content: space-between;
 }
+
 .header-nav__logo {
     width: 160px;
     height: 74px;
@@ -74,12 +34,63 @@ nav {
     margin-left: 15px;
     margin-right: 10px;
 }
+
 .header-nav__logo-img {
     margin: 0;
 }
+
+.header-nav__burger {
+    display: block;
+    position: relative;
+    width: 30px;
+    height: 20px;
+}
+
+.header-nav__burger span {
+    position: absolute;
+    background-color: white;
+    height: 2px;
+    width: 100%;
+    top: 9px;
+    transition: all 0.3s ease 0s;
+}
+
+.header-nav__burger:before,
+.header-nav__burger:after {
+    content: '';
+    position: absolute;
+    background-color: white;
+    height: 2px;
+    width: 100%;
+    transition: all 0.3s ease 0s;
+}
+
+.header-nav__burger:before {
+    top: 0;
+}
+
+.header-nav__burger:after {
+    bottom: 0;
+}
+
+.header-nav__burger.active:before {
+    transform: rotate(45deg);
+    top: 9px;
+}
+
+.header-nav__burger.active:after {
+    transform: rotate(-45deg);
+    bottom: 9px;
+}
+
+.header-nav__burger.active span {
+    transform: scale(0);
+}
+
 .header__top-navigation {
     width: 100%;
 }
+
 .header__top-navigation_wrap {
     width: 80%;
     margin: 0 auto;
@@ -92,20 +103,24 @@ nav {
     padding-top: 20px;
     line-height: 16px;
 }
+
 .header__top-navigation-links_wrap {
     display: flex;
 }
+
 .header__top-navigation-links {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     column-gap: 15px;
 }
+
 .header__top-navigation {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .header__top-navigation-button {
     width: 150px;
     height: 40px;
@@ -116,28 +131,35 @@ nav {
     align-items: center;
     margin-left: 15px;
 }
+
 .header__top-navigation-button:hover {
     background: white;
 }
+
 .link, .header__top-navigation-button {
     color: white;
     text-decoration: none;
     font-size: 16px;
 }
+
 .link:hover {
     color: #d0bd8c;
 }
+
 .header__top-navigation-button:hover {
     color: #d0bd8c;
 }
+
 main {
     font-family: 'Playfair Display', serif;
 }
+
 .main__header {
     width: 100%;
     padding-top: 90px;
     padding-bottom: 100px;
 }
+
 .main__header__info-h2 {
     font-family: 'Playfair Display', serif;
     font-size: 32px;
@@ -155,13 +177,16 @@ main {
     letter-spacing: 1px;
     color: var(--main-text-color);
 }
+
 .main__header__info-p-up {
     margin-top: 20px;
 }
+
 .main__header__info-left {
     padding-left: 15px;
     padding-right: 15px;
 }
+
 .main__header__info-left p {
     letter-spacing: 0.465px;
     line-height: 26px;
@@ -169,27 +194,32 @@ main {
     font-size: 15px;
     font-family: 'Raleway', sans-serif;
 }
+
 .destinations {
     background-image: url("../img/our-service/background_section_destination.jpg");
     background-size: cover;
     min-height: 1200px;
     background-attachment: fixed;
 }
+
 .destination-wrap {
     background-color: var(--background-color-wrap);
     background-size: cover;
     min-height: 1200px;
 }
+
 .destination__header {
     text-align: center;
     color: var(--background-color-white);
 }
+
 .destinations__h2 {
     font-size: 48px;
     font-weight: 700;
     letter-spacing: 2px;
     padding-top: 90px;
 }
+
 .sea__subheader {
     margin-top: 25px;
     font-size: 16px;
@@ -199,6 +229,7 @@ main {
     padding-bottom: 20px;
 
 }
+
 .routes {
     flex-direction: column;
     row-gap: 30px;
@@ -211,10 +242,12 @@ main {
     align-items: center;
     padding-bottom: 30px;
 }
+
 .frame {
     background-color: var(--background-color-white);
     width: 80%;
 }
+
 .frame-item {
     display: flex;
     justify-content: center;
@@ -223,6 +256,7 @@ main {
     row-gap: 10px;
     padding-top: 50px;
 }
+
 .croatian_isles_img,
 .amalfi_img,
 .norwey_img,
@@ -231,6 +265,7 @@ main {
 .greece_img {
     max-width: 80%;
 }
+
 .croatian_isles_p,
 .amalfi_p,
 .norwey_p,
@@ -243,25 +278,30 @@ main {
     font-size: 18px;
     padding-bottom: 15px;
 }
+
 .accommodation_options {
     padding-bottom: 90px;
     padding-top: 90px;
 }
+
 .accommodation_options_header_h2 {
     text-align: center;
     font-size: 34px;
     padding-bottom: 60px;
 }
+
 .accommodation_options_main_content_cabin_h3, .accommodation_options_main_content_yacht_h3 {
     text-align: center;
     font-size: 22px;
 }
+
 .accommodation_options_main_content_cabin_p, .accommodation_options_main_content_yacht_p {
     font-weight: 500;
     letter-spacing: 0.465px;
     line-height: 26.25px;
     padding-left: 20px;
 }
+
 .accommodation_options_main_content_cabin_ul {
     list-style-image: url("../img/our-service/svg.JPG");
     font-family: 'Raleway', sans-serif;
@@ -304,22 +344,87 @@ main {
 .accommodation_options_footer-button:hover {
     background-color: #d0bd8c;
 }
+
+@media (min-width: 1000px) {
+    .header-nav__burger {
+        display: none;
+    }
+
+    .header-top {
+        margin: auto;
+        display: block;
+        padding-bottom: 5px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 5px;
+    }
+
+    .header__contacts {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .header__contacts-icons {
+        display: flex;
+        column-gap: 10px;
+    }
+
+    .header__contacts-tel {
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 5px;
+    }
+
+    .header__contacts a {
+        font-size: 16px;
+        color: #d0bd8c;
+        text-decoration: none;
+    }
+
+    .header__contacts-social {
+        width: 25px;
+        height: 25px;
+        border: 1px solid black;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header__contacts-social a {
+        color: black;
+    }
+
+    .header_nav-links {
+        display: flex;
+        align-items: flex-end;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+    }
+}
+
 @media (min-width: 770px) {
+
     .main__header__info-content {
         margin-top: 50px;
         display: flex;
         flex-direction: row;
     }
+
     .routes {
         flex-direction: row;
     }
+
     .frame {
         width: 30%;
     }
+
     .accommodation_options_main_content {
         display: flex;
         column-gap: 10px;
     }
+
     .accommodation_options_main_content_wrap {
         padding-right: 45px;
         padding-left: 45px;
