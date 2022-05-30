@@ -1,0 +1,41 @@
+.our__story {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 20px;
+}
+
+
+.our__story__content p {
+    text-align: start;
+}
+
+
+.marina {
+    width: 273px;
+    height: 337px;
+}
+
+ul {
+    list-style-image: url("../img/our-service/svg.JPG");
+         
+
+
+}
+
+
+.our_promises {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 20px;
+    background-image: url("../img/about-us/port.jpg");
+    
+}
+
