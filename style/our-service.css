@@ -22,7 +22,7 @@ body.lock {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    left:40%;
+    left:30%;
     row-gap: 25px;
 }
 .header__top-navigation-links.active {
