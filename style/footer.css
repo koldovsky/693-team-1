@@ -13,10 +13,14 @@ footer {
 
 }
 
-
+.yacht_logo {
+    display: flex;
+    justify-content: center;
+}
 
 .yacht_logo img {
     width: 176px;
+
 }
 
 .footer_content {
@@ -34,7 +38,7 @@ footer {
 .footer_text {
     text-align: center;
     color: var(--background-color-white);
-    font-family:'Rubik', sans-serif;
+    font-family: 'Rubik', sans-serif;
     font-size: 12px;
 
 }
@@ -45,7 +49,7 @@ footer {
     justify-content: center;
     align-items: center;
     margin-top: 30px;
-    font-family:'Raleway', serif;
+    font-family: 'Raleway', serif;
     font-size: 15px;
 
 }
@@ -67,7 +71,7 @@ a:hover {
     justify-content: center;
     align-items: center;
     margin-top: 30px;
-    font-family:'Raleway', serif;
+    font-family: 'Raleway', serif;
     font-size: 15px;
 
 }
@@ -91,7 +95,7 @@ a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family:'Raleway', serif;
+    font-family: 'Raleway', serif;
     font-size: 15px;
 
 }
@@ -154,7 +158,7 @@ a:hover {
     border: none;
     color: var(--text-color-white);
     background: var(--text-color);
-    font-family:'Raleway', serif;
+    font-family: 'Raleway', serif;
     font-size: 14px;
 
 }
@@ -166,8 +170,9 @@ a:hover {
     align-items: center;
     background-color: var(--background-color-nav);
     color: var(--text-color);
-    font-family:'Rubik', sans-serif;
+    font-family: 'Rubik', sans-serif;
     font-size: 12px;
+    padding-bottom: 20px;
 }
 
 
@@ -191,6 +196,9 @@ a:hover {
 
     }
 
+
+
+
     .footer_text {
         width: 175px;
         height: 112px;
@@ -199,15 +207,23 @@ a:hover {
 
     }
 
+    .footer_nav {
+        margin-top: -82px;
+
+    }
+
+
+
     .footer_text_rights {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        padding-bottom: 46px;
     }
 
     .create {
-        margin-left:40px;
-        
+        margin-left: 40px;
+
     }
 
     .rights {
