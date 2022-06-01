@@ -1,75 +1,31 @@
-@import url(comon.css);
-
-.header {
-    height: 100vh;
-    margin-bottom: 20px;
-}
-
 .header__contacts {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
     background-color: var(--background-color-white);
-    display: flex;
-    justify-content: space-between;
     padding-top: 5px;
     padding-bottom: 5px;
 }
 
 .header__top-navigation {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
     background-color: var(--background-color-nav);
-    justify-content: space-around;
-    align-items: baseline;
-    /* position: absolute; */
-    /* width: 100%; */
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 120px;
 }
 
 .header__top-navigation-logo {
-    padding-top: 20px;
-    width: 176px;
-    height: auto;
-    background-color: var(--background-color-nav);
-}
-
-.header__top-navigation-links {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.header__top-navigation-links a{
-    text-decoration: none;
-    padding-right: 20px;
-    color: white;
-    font-size: 36px;
+    display: block;
+    width: 20%;
 }
 
 .header__banner {
-    /* position: absolute; */
-    width: 100%;
-    height: auto;
-    /* margin-top: 100px; */
-    text-align: center;
+    display: grid;
+    justify-items: center;
+    align-items: center;
     background-image: url(../img/header/header-banner-background.jpeg);
-    background-size: cover;
-    background-position: center;
-    height: 1500px;
-}
-
-.header__banner-h1 {
-    padding-top: 400px;
-    font-size: 156px;
-    color: white;
-}
-
-
-.btn-send{
-    width: 200px;
-    height: 70px;
-    border-radius: 20px;
-    background: #dca822;
-    border: none;
-}
-
-.btn-send span{
-    color: white;
-    font-size: 26px;
 }
