@@ -1,3 +1,6 @@
+(function () {
+    
+
 const burger = document.querySelector(".header-nav__burger")
 const headerNav = document.querySelector(".header_nav")
 const headerNavLinks = document.querySelector(".header_nav-links")
@@ -10,3 +13,4 @@ burger.addEventListener("click", function () {
     headerNavLinksA.classList.toggle("active")
     body.classList.toggle("lock")
 })
+})();
