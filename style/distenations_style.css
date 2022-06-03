@@ -102,6 +102,28 @@
     .card1 {
             padding-bottom: 2em;
             
+            
+        }
+    
+        .card2 {
+            margin-bottom: 3em;
+            
+        }
+    
+        .card3 {
+            margin-bottom: 3em;
+        }
+    
+        .card4 {
+            margin-bottom: 3em;
+        }
+        
+        
+}
+@media  (min-width: 100px) {
+    .card1 {
+            padding-bottom: 2em;
+            
         }
     
         .card2 {
@@ -115,6 +137,10 @@
         .card4 {
             margin-bottom: 3em;
         }
+        .text_page .lab{
+            
+        }
+        
         
 }
 .im img{
