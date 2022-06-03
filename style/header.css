@@ -20,7 +20,7 @@
     background-color: var(--background-color-nav);
     padding-top: 5px;
     padding-bottom: 5px;
-    height: 200px;
+    height: 120px;
     width: auto;
 }
 
@@ -33,7 +33,7 @@
     display: grid;
     justify-items: center;
     align-items: center;
-    height: 500px;
+    height: auto;
     padding-top: 25px;
     padding-bottom: 25px;
     background-image: url(../img/header/header-banner-background.jpeg);
