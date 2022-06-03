@@ -21,7 +21,8 @@ header {
   grid-area: header;
   border-bottom: 1px solid black;
   display: flex;
-  flex-wrap: wrap;
+  flex-flow: row nowrap;
+  justify-content: space-around;
   align-items: center;
 }
 main {
