@@ -1,131 +1,154 @@
-@desktop: 1200px;
+.header {
+  background-color: var(--background-color-nav);
+  position: relative;
+  margin: 0 auto;
+  min-height: 180px;
+  padding: 20px 30px;
+}
+  .header .headerWrap {
+    margin: 0 auto; }
+    .header .headerWrap .top-nav .menu .card-wrap .cart__href {
+      color: var(--just-white); }
+    .header .headerWrap .top-nav .menu li a:link,
+    .header .headerWrap .top-nav .menu li a:visited {
+      color: var(--basic-title-color); }
 
-* {
-  box-sizing: border-box;
+.logo {
+  width: 176px;
+  height: 82px;
+  background-image: url("../img/header/yacht-logo.svg");
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+.top-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.site-wrapper {
-  padding: 2rem;
-  min-height: 100vh;
-  display: grid;
-  grid-gap: 2rem;
-  grid-template-columns: 3fr 1fr;
-  grid-template-rows: min-content 1fr min-content;
-  grid-template-areas:
-    "header header"
-    "aside main"
-    "footer footer";
-}
-
-header {
-  grid-area: header;
-  border-bottom: 1px solid black;
+.menu {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-around;
   align-items: center;
-}
-main {
-  grid-area: main;
-}
-aside {
-  grid-area: aside;
-}
-footer {
-  grid-area: footer;
-  border-top: 1px solid black;
-  text-align: right;
-}
-header, footer {
-  padding: 1rem 0;
-}
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
 
-.logo {
-  background: black;
-  display: inline-block;
-  width: 50px;
-  height: 50px;
-  color: white;
-  border-radius: 50%;
-  text-align: center;
-  text-decoration: none;
-  line-height: 50px;
-  font-size: 34px;
-}
+.menu > li {
+  margin: 0 10px;
+  overflow: hidden; }
 
-.site-nav {
-  margin-left: auto;
-  
-  ul {
+.menu > li > a {
+  text-decoration: none; }
+
+.menu-button-container {
+  display: none;
+  height: 100%;
+  width: 30px;
+  cursor: pointer;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+#menu-toggle {
+  display: none; }
+
+.menu-button,
+.menu-button::before,
+.menu-button::after {
+  display: block;
+  background-color: var(--text-color-white);
+  position: absolute;
+  height: 4px;
+  width: 30px;
+  transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
+  border-radius: 2px; }
+
+.menu-button::before {
+  content: "";
+  margin-top: -8px; }
+
+.menu-button::after {
+  content: "";
+  margin-top: 8px; }
+
+#menu-toggle:checked + .menu-button-container .menu-button::before {
+  margin-top: 0px;
+  transform: rotate(405deg); }
+
+#menu-toggle:checked + .menu-button-container .menu-button {
+  background: var(--text-color-white); }
+
+#menu-toggle:checked + .menu-button-container .menu-button::after {
+  margin-top: 0px;
+  transform: rotate(-405deg); }
+
+@media (max-width: 768px) {
+  .menu-button-container {
+    display: flex; }
+
+  .menu {
+    position: absolute;
+    top: 0;
+    margin-top: 150px;
+    left: 0;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center; }
+
+  #menu-toggle ~ .menu li {
+    height: 0;
     margin: 0;
-    margin-top: 1.5em;
     padding: 0;
-    list-style: none;
+    border: 0;
+    transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1); }
+
+  #menu-toggle:checked ~ .menu li {
+    border: 1px solid var(--menu-li);
+    height: 2.5em;
+    padding: 0.5em;
+    transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1); }
+
+  .menu > li {
     display: flex;
-    
-    li {
-      margin-left: 0.5rem;
-    }    
-  }
-  
-  a {
-    text-decoration: none;
-    color: black;
-    
-    &.button {
-      background: black;
-      color: white;
-      text-decoration: none;
-      padding: 0.5rem 1rem;
-      border-radius: 4px;
-      
-      &-green {
-        background: #66BB6A;
-      }
-    }
-  } 
+    justify-content: center;
+    margin: 0;
+    padding: 0.5em 0;
+    width: 100%;
+    background-color: var(--background-color-nav); 
+    height: 100vh;
 }
 
-// burger menu 
-
-#burger {
- 
- cursor: pointer;
- margin-left: auto;
-   
-  div {
-    width: 35px;
-    height: 5px;
-    background-color: black;
-    margin: 6px 0;
-  }
+body > header > div > section > ul > li > a {
+  color: var(--text-color-white);
 }
 
-@media (min-width: @desktop) { 
-  #burger {
-    display: none;
-  }
-}
+  .menu > li:not(:last-child) {
+    border-bottom: 1px solid var(--menu-li-not); }
 
-@media (max-width: @desktop) {    
-  .site-nav {    
-    display: none;    
-    &.show {
-      display: block;
-    }    
-    width: 100%;    
-    ul {    
-      display: block;
-      li {
-        padding: 0.5em 0;
-        a {
-          display: block;
-          width: 100%;
-        }
-      }
-    }
-  }
-}
+  .header .headerWrap .top-nav .menu .card-wrap {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    padding: 9px;
+    border-radius: 3px;
+    gap: 4px;
+    background-color: var(--text-color-white); }
+
+  .header .headerWrap .top-nav .menu .cart__count {
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 1px;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: var(--just-white); } }
+
 
 
 
