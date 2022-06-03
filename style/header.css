@@ -1,4 +1,136 @@
-.header {
+@desktop: 1200px;
+
+* {
+  box-sizing: border-box;
+}
+
+.site-wrapper {
+  padding: 2rem;
+  min-height: 100vh;
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: min-content 1fr min-content;
+  grid-template-areas:
+    "header header"
+    "aside main"
+    "footer footer";
+}
+
+header {
+  grid-area: header;
+  border-bottom: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+main {
+  grid-area: main;
+}
+aside {
+  grid-area: aside;
+}
+footer {
+  grid-area: footer;
+  border-top: 1px solid black;
+  text-align: right;
+}
+header, footer {
+  padding: 1rem 0;
+}
+
+.logo {
+  background: black;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+  text-decoration: none;
+  line-height: 50px;
+  font-size: 34px;
+}
+
+.site-nav {
+  margin-left: auto;
+  
+  ul {
+    margin: 0;
+    margin-top: 1.5em;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    
+    li {
+      margin-left: 0.5rem;
+    }    
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+    
+    &.button {
+      background: black;
+      color: white;
+      text-decoration: none;
+      padding: 0.5rem 1rem;
+      border-radius: 4px;
+      
+      &-green {
+        background: #66BB6A;
+      }
+    }
+  } 
+}
+
+// burger menu 
+
+#burger {
+ 
+ cursor: pointer;
+ margin-left: auto;
+   
+  div {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+  }
+}
+
+@media (min-width: @desktop) { 
+  #burger {
+    display: none;
+  }
+}
+
+@media (max-width: @desktop) {    
+  .site-nav {    
+    display: none;    
+    &.show {
+      display: block;
+    }    
+    width: 100%;    
+    ul {    
+      display: block;
+      li {
+        padding: 0.5em 0;
+        a {
+          display: block;
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+/*.header {
     height: 100vh;
     margin-bottom: 20px;
 }
