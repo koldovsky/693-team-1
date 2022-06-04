@@ -150,8 +150,66 @@ body > header > div > section > ul > li > a {
     background-color: var(--just-white); } }
 
 
+.header__banner {
+    background-image: url(../img/header/header-banner-background.jpeg);
+    height: 700px;
+    width: auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
 
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+      background-attachment: scroll;
+  }
+}
 
+.header__banner-h1 {
+  color: white;
+  font-size: 80px;
+}
+
+.subheader {
+  color: white;
+  font-size: 20px;
+}
+
+.header__contacts__menu {
+  background-color: white;
+  
+  height: 30px;
+}
+
+.button {
+    padding: 0.35em 1.2em;
+    border: 0.1em solid white;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    transition: color 0.7s;
+    background-color: var(--text-color);
+}
+
+.button :hover {
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+
+.menu {
+  color: white;
+}
+
+.fa-brands {
+  width: 20px;
+}
 
 
 /*.header {
