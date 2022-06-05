@@ -4,6 +4,7 @@
   margin: 0 auto;
   min-height: 180px;
   padding: 20px 30px;
+  height: 880px;
 }
   .header .headerWrap {
     margin: 0 auto; }
@@ -152,8 +153,6 @@ body > header > div > section > ul > li > a {
 
 .header__banner {
     background-image: url(../img/header/header-banner-background.jpeg);
-    height: 700px;
-    width: auto;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -161,6 +160,11 @@ body > header > div > section > ul > li > a {
     display: grid;
     justify-items: center;
     align-items: center;
+    margin-top: 78px; 
+    position: absolute;
+    height: 700px;
+    width: 100%;
+    left: 0;
 }
 
 @media only screen and (max-device-width: 1366px) {
@@ -177,12 +181,6 @@ body > header > div > section > ul > li > a {
 .subheader {
   color: white;
   font-size: 20px;
-}
-
-.header__contacts__menu {
-  background-color: white;
-  
-  height: 30px;
 }
 
 .button {
