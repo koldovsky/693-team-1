@@ -183,6 +183,12 @@ body > header > div > section > ul > li > a {
   font-size: 20px;
 }
 
+.header__banner__one {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
 .button {
     padding: 0.35em 1.2em;
     border: 0.1em solid white;
