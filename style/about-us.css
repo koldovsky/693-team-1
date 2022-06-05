@@ -41,6 +41,7 @@ ul {
    
     
     
+    
 }
 
 .our_promises_content {
@@ -58,7 +59,7 @@ ul {
 
 .our_promises_background {
     background-color: rgba(37, 72, 123, 0.671);
-   
+
 }
 
 .paragraph {
@@ -167,4 +168,27 @@ ul {
     font-family:"Playfair Display", serif;
     font-size: 22px;
     color: white;
+}
+
+
+.our_partners {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 40px;
+
+}
+
+.paragraph_partners {
+    font-family:"Playfair Display", serif;
+    font-size: 34px;
+    color:#25364A;
+}
+
+.hotels_title .norcoldtitle .gear_title .blue_state_title {
+    font-family:'Raleway' serif;
+    color:#515C6D;
+    font-size: 15px;
 }
