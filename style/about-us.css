@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+
+
+
 .our__story {
     display: flex;
     flex-direction: column;
@@ -13,7 +19,9 @@
     text-align: start;
 }
 
-
+.core__values_img {
+    margin-bottom: 40px;
+}
 .marina {
     width: 273px;
     height: 337px;
@@ -30,6 +38,8 @@ ul {
 .our_promises {
     background-image: url(../img/about-us/port.jpg);
     background-size:cover;
+   
+    
     
 }
 
@@ -44,8 +54,117 @@ ul {
 }
 
 
+
+
 .our_promises_background {
     background-color: rgba(37, 72, 123, 0.671);
    
 }
+
+.paragraph {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color:white;
+    font-family:"Playfair Display", serif;
+    font-size: 34px;
+}
    
+
+.our_experience {
+    border: 1px solid white;
+    background-color:rgba(117, 190, 218, 0.4) ;
+    width: 272px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
+
+
+.our_experience_title {
+    padding-bottom: 50px;
+    font-family:"Playfair Display", serif;
+    font-size: 22px;
+    color: white;
+    
+
+}
+
+.our_experience_text {
+    padding-left: 40px;
+    padding-right: 40px;
+    font-family:'Raleway' serif;
+    color: white;
+    font-size: 15px;
+}
+
+.our_service {
+    border: 1px solid white;
+    background-color:rgba(117, 190, 218, 0.4) ;
+    width: 272px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 40px;
+}
+
+.our_service_title {
+    padding-bottom: 50px;
+    font-family:"Playfair Display", serif;
+    font-size: 22px;
+    color: white;
+}
+
+.our_service_text {
+    padding-left: 40px;
+    padding-right: 40px;
+    font-family:'Raleway' serif;
+    color: white;
+    font-size: 15px;
+}
+   
+
+.our_option {
+    border: 1px solid white;
+    background-color:rgba(117, 190, 218, 0.4) ;
+    width: 272px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 40px;
+}
+
+.our_option_title {
+    padding-bottom: 50px;
+    font-family:"Playfair Display", serif;
+    font-size: 22px;
+    color: white;
+}
+
+.our_option_text {
+    padding-left: 40px;
+    padding-right: 40px;
+    font-family:'Raleway' serif;
+    color: white;
+    font-size: 15px;
+}
+
+.addition {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family:"Playfair Display", serif;
+    font-size: 22px;
+    color: white;
+}
