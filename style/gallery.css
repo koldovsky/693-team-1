@@ -366,6 +366,7 @@ body.lock {
 .section-yachtsail-trips {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/gallery/background-sea-surfers.jpg);
   background-size: cover;
+  margin-bottom: 30px;
 }
 
 @media (min-width: 860px) {
