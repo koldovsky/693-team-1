@@ -2,8 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Raleway:wght@100&display=swap');
 @import url(comon.css);
 
-/*header*/
-
 nav {
   font-family: 'Raleway', sans-serif;
 }
@@ -15,9 +13,11 @@ nav {
 .header_nav-links {
   display: none;
 }
+
 body.lock {
   overflow: hidden;
 }
+
 .header_nav-links.active {
   display: flex;
   position: fixed;
@@ -28,18 +28,20 @@ body.lock {
   left:30%;
   row-gap: 25px;
 }
+
 .header__top-navigation-links.active {
   display: flex;
   column-gap: 15px;
   flex-direction: column;
   align-items: center;
   row-gap: 25px;
+  color: white;
 }
-
 
 .header_nav {
   background-color: var(--background-color-nav);
 }
+
 .header_nav.active {
   background-color: var(--background-color-nav);
   width: 100%;
@@ -55,18 +57,12 @@ body.lock {
   justify-content: space-between;
 }
 
-.header-nav__logo {
-  width: 160px;
-  height: 74px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  margin-top: 5px;
-  margin-left: 15px;
-  margin-right: 10px;
-}
-
 .header-nav__logo-img {
   margin: 0;
+  width: 176px;
+  height: 80px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .header-nav__burger {
@@ -83,6 +79,11 @@ body.lock {
   width: 100%;
   top: 9px;
   transition: all 0.3s ease 0s;
+}
+
+.header__top-navigation-links .link {
+  color: white;
+  font-size: 16px;
 }
 
 .header-nav__burger:before,
@@ -159,14 +160,15 @@ body.lock {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 15px;
+  margin-left: 0;
+  justify-content: center;
 }
 
 .header__top-navigation-button:hover {
   background: white;
 }
 
-.link, .header__top-navigation-button {
+.header__top-navigation-button {
   color: white;
   text-decoration: none;
   font-size: 16px;
@@ -239,9 +241,6 @@ body.lock {
   }
 }
 
-
-/*my gallery*/
-
 .gallery-top {
   color: var(--main-text-color);
   text-align: center;
@@ -270,6 +269,7 @@ body.lock {
 .gallery-block-column-two {
   margin: 25px;
 }
+
 .gallery-block-column-three {
   margin: 25px;
 }
@@ -359,7 +359,7 @@ body.lock {
   .main-block-gallery {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    margin: 50px 130px 130px 50px;
+    margin: 30px 130px 130px 50px;
   }
 }
 
@@ -463,7 +463,6 @@ body.lock {
   grid-auto-rows: auto;
 }
 
-/*header and footer*/
 .header_nav-wrap {
     width: 90%;
     display: flex;
@@ -509,17 +508,6 @@ body {
 
 *, ::after, ::before {
     box-sizing: border-box;
-}
-
-/*footer*/
-footer {
-  background-color: var(--background-color-nav);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding-top: 60px;
-  padding-bottom: 60px;
 }
 
 .yacht_logo img {
@@ -621,7 +609,6 @@ a:hover {
   background: rgb(217, 216, 216);
   border: none;
   text-align: center;
-
 }
 
 .footer_btn {
@@ -654,18 +641,22 @@ a:hover {
       flex-direction: row;
       justify-content: space-around;
   }
+  
   .footer_logo {
       display: flex;
       flex-direction: column;
   }
+  
   .footer_text_rights {
       display: flex;
       flex-direction: row;
       justify-content: space-between;
   }
+  
   .create {
       margin-left: 80px;
   }
+  
   .rights {
       margin-right: 100px;
   }
