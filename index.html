@@ -18,18 +18,23 @@
     <nav class="header__contacts">
             <a href="tel:+12345678900">1-234-567-8900</a>
             <div class="clock"></div>
-            <div>
-                <a href="https://twitter.com">
-                    <i class="fa-brands fa-twitter"></i>
-                </a>
-                <a href="https://instagram.com">
-                    <i class="fa-brands fa-instagram"></i>
-                </a>
-                <a href="https://facebook.com">
-                    <i class="fa-brands fa-facebook"></i>
-                </a>
-            </div>
+            <li class="header__contacts-icons">
+                <span class="header__contacts-social">
+                    <a href="https://twitter.com">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a></span>
+                    <span class="header__contacts-social">
+                        <a href="https://instagram.com">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a></span>
+                    <span class="header__contacts-social">
+                        <a href="https://facebook.com">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </span>
+            </li>
         </nav>
+        <!-- Bohdan Abarovskyi block start -->
     <header class="header">
         <div class="headerWrap">
             <section class="top-nav">
@@ -40,23 +45,25 @@
                     <div class='menu-button'></div>
                 </label>
                 <ul class="menu">
-                    <li><a href="#">Destinations</a></li>
-                    <li><a href="#">Our services</a></li>
-                    <li><a href="#">Our fleet</a></li>
-                    <li><a href="#">Gallery</a></li>
-                    <li><a href="#">FAQ</a></li>
-                    <li><a href="gallery.html">About Us</a></li>
-                    <li><a href="#">Contacts</a></li>
-                    <li><a href="#">+ 1-234-567-8900</a></li>
-                    <li>
-                        <span class="social-header">
+                    <li><a href="destinations.html">Destinations</a></li>
+                    <li><a href="our-services.html">Our services</a></li>
+                    <li><a href="our-fleet.html">Our fleet</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="about-us.html">About Us</a></li>
+                    <li><a href="contacts.html">Contacts</a></li>
+                    <li><a href="tel:+12345678900">+ 1-234-567-8900</a></li>
+                    <li class="header__contacts-icons">
+                        <span class="header__contacts-social">
                             <a href="https://twitter.com">
                                 <i class="fa-brands fa-twitter"></i>
-                            </a>
-                            <a href="https://instagram.com">
+                            </a></span>
+                            <span class="header__contacts-social">
+                                <a href="https://instagram.com">
                                 <i class="fa-brands fa-instagram"></i>
-                            </a>
-                            <a href="https://facebook.com">
+                            </a></span>
+                            <span class="header__contacts-social">
+                                <a href="https://facebook.com">
                                 <i class="fa-brands fa-facebook"></i>
                             </a>
                         </span>
@@ -75,43 +82,6 @@
         </div>
         
     </header>
-
-    <!-- Bohdan Abarovskyi block start -->
-    <!--
-    <header class="header">
-        <nav class="header__contacts">
-            <a href="tel:+12345678900">1-234-567-8900</a>
-            <div>
-                <a href="https://twitter.com">
-                    <i class="fa-brands fa-twitter"></i>
-                </a>
-                <a href="https://instagram.com">
-                    <i class="fa-brands fa-instagram"></i>
-                </a>
-                <a href="https://facebook.com">
-                    <i class="fa-brands fa-facebook"></i>
-                </a>
-            </div>
-        </nav>
-        <nav class="header__top-navigation">
-            <img class="header__top-navigation-logo" width="176" src="img/header/yacht-logo.svg" alt="Yacht-Logo">
-            <div class="header__top-navigation-links">
-                <a class="link" href="destinations.html">Destinations</a>
-                <a class="link" href="our-services.html">Our services</a>
-                <a class="link" href="our-fleet.html">Our fleet</a>
-                <a class="link" href="gallery.html">Gallery</a>
-                <a class="link" href="faq.html">FAQ</a>
-                <a class="link" href="about-us.html">About Us</a>
-                <a class="link" href="contacts.html">Contacts</a>
-                <a class="link button" href="send-request.html">Send request</a>
-            </div>
-        </nav>
-        <div class="header__banner">
-            <h1 class="header__banner-h1">YachtSail Trips</h1>
-            <p class="subheader">Join us on maritime vacation in the most spectacular places of the world!</p>
-            <a href="#contacts" class="header__banner-link button">Let's Sail!</a>
-        </div>
-    </header> -->
     <!-- Bohdan Abarovskyi block end -->
     <!-- Alex Dominov block start -->
     <div class="distenation">
@@ -311,7 +281,7 @@
     <!-- </main> -->
     <!-- Anastasiia Savytska block end  -->
     <!-- Safronov Ihor's blok start -->
-    <div class="footer-contact">
+    <div id="contacts" class="footer-contact">
         <div class="countdown-wrapper">
             <h1 class="title">до Нового Года осталось:</h1>
             <div id="year" class="year"></div>
