@@ -215,8 +215,8 @@ body > header > div > section > ul > li > a {
   align-items: center;
   margin-top: 20px;
   margin-bottom: 20px;
-  height: 40px;
-  width: 234px;
+  height: 35px;
+  width: 150px;
   border-radius: 20px;
   border: none;
   color: var(--text-color-white);
@@ -225,17 +225,13 @@ body > header > div > section > ul > li > a {
 }
 
 .button :hover {
-    color: black;
-    background-color: white;
-    cursor: pointer;
+  color: black;
+  background-color: white;
+  cursor: pointer;
 }
 
 .menu {
   color: white;
-}
-
-.fa-brands {
-  width: 20px;
 }
 
 .header__contacts-icons {
