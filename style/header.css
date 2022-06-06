@@ -26,7 +26,7 @@
 
 .logo {
   width: 176px;
-  height: 82px;
+  height: 87px;
   background-image: url("../img/header/yacht-logo.svg");
   background-size: contain;
   background-repeat: no-repeat; }
@@ -115,7 +115,7 @@
 @media (max-width: 768px) {
   .menu-button-container {
     display: flex; 
-    overflow: auto;}
+    }
 
   .header__contacts {
     display: none;
@@ -265,4 +265,13 @@ body > header > div > section > ul > li > a {
 
 .clock {
   font-size: 30px;
+}
+
+@media (min-width: 768px) {
+  .header__contacts-icons__one {
+    display: none;
+  }
+  .tel__nav {
+    display: none;
+  }
 }
