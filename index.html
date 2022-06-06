@@ -310,50 +310,75 @@
     <!-- </main> -->
     <!-- Anastasiia Savytska block end  -->
     <!-- Safronov Ihor's blok start -->
-    <div class="footer-contacts">
-        <div>
-            <div class="footter-text-contact">
-                <h3>Contacts</h3>
-                <p>If you are planning your stunning summer vacation,
-                    we will be happy to provide you with all the details
-                    and help you choose your perfect yacht trip.
-                </p>
+    <div class="footer-contact">
+        <div class="countdown-wrapper">
+            <h1 class="title">до Нового Года осталось:</h1>
+            <div id="year" class="year"></div>
+            <div class="countdown" id="countdown">
+                <div class="time">
+                    <h2 id="days">00</h2>
+                    <small>дней</small>
+                </div>
+                <div class="time">
+                    <h2 id="hours">00</h2>
+                    <small>часов</small>
+                </div>
+                <div class="time">
+                    <h2 id="minutes">00</h2>
+                    <small>минут</small>
+                </div>
+                <div class="time">
+                    <h2 id="seconds">00</h2>
+                    <small>секунд</small>
+                </div>
             </div>
-            <div class="footer-address">
-                <div class="first_address">
-                    <h4>ADDRESS</h4>
-                    <p>23 Broad St, Brighton BN2 1TJ, UK</p>
-                </div>
-                <div class="work_time">
-                    <h4>HOURS</h4>
-                    <p>Monday - Saturday: 11 AM - 9 PM <br>
-                        Sunday: 11 AM - 7 PM</p>
-                </div>
-                <div class="contact-footer">
-                    <h4>CONTACTS</h4>
-                    <p>+1 (234) 567 89 00 <br>
-                        yacht@email.com</p>
-                </div>
-                <div class="social-media">
-                    <a href="https://twitter.com">
-                        <i class="fa-brands fa-twitter"></i>
-                    </a>
-                    <a href="https://instagram.com">
-                        <i class="fa-brands fa-instagram"></i>
-                    </a>
-                    <a href="https://facebook.com">
-                        <i class="fa-brands fa-facebook"></i>
-                    </a>
+            <div class="preloader" id="preloader">
+                <div class="lds-ripple">
+                    <div></div>
+                    <div></div>
                 </div>
             </div>
         </div>
-        <div class="footer-form">
-            <form action="#" class="form">
-                <input type="text" name="name" placeholder="Name" class="input" required>
-                <input type="tel" name="phone_number" placeholder="Phone number" class="input" required>
-                <input type="email" name="e-mail" placeholder="E-mail" class="input" required>
-                <button type="submit" class="btn_form"><span>Send a Request</span></button>
-            </form>
+        <div class="footer-contact__background">
+            <div class="container">
+                <h2 class="footer-contact__head-text">
+                    Contacts
+                </h2>
+                <p class="footer-cantact__paragraf-text">
+                    If you are planning your stunning summer vacation, <br> we will be happy to provide you with all the details and help you choose your perfect yacht trip.
+                </p>
+            </div>
+            <div class="container">
+                <div class="footer-contact__wrapper">
+                    <div class="address__card">
+                        <h3>ADDRESS</h3>
+                        <p>23 Broad St, Brighton BN2 1TJ, UK</p>
+                        <h3>HOURS</h3>
+                        <p>Monday - Saturday: 11 AM - 9 PM <br> Sunday: 11 AM - 7 PM</p>
+                        <h3>CONTACTS</h3>
+                        <p>+1 (234) 567 89 00 <br> yacht@email.com</p>
+                    </div>
+                    <div class="register-form-container">
+                        <form class="contact-form-formspree" action="https://formspree.io/f/xeqpelev" method="POST">
+                            <div class="form-fields">
+                                <div class="form-field">
+                                    <input type="text" placeholder="Name" required>
+                                </div>
+                                <div class="form-field">
+                                    <input type="phone" placeholder="Phone" required>
+                                </div>
+                                <div class="form-field">
+                                    <input type="email" placeholder="E-mail" required>
+                                </div>
+                            </div>
+                            <div class="form-buttons">
+                                <button class="button">Send a Request</button>
+                            </div>
+                        </form>
+                        <div class="contact-form-status"></div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <!-- Safronov Ihor's blok end -->
