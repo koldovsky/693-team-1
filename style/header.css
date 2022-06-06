@@ -266,61 +266,6 @@ body > header > div > section > ul > li > a {
   color: #25364a;
 }
 
-/*.header {
-    height: 100vh;
-    margin-bottom: 20px;
-}
-
-.header__contacts {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-items: center;
-    background-color: var(--background-color-white);
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-
-.header__top-navigation {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-items: center;
-    align-items: center;
-    background-color: var(--background-color-nav);
-    padding-top: 5px;
-    padding-bottom: 5px;
-    height: 120px;
-    width: auto;
-}
-
-.header__top-navigation-logo {
-    display: block;
-    width: 20%;
-}
-
-.header__banner {
-    display: grid;
-    justify-items: center;
-    align-items: center;
-    height: 700px;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    background-image: url(../img/header/header-banner-background.jpeg);
-}
-
-.button {
-    padding: 0.35em 1.2em;
-    border: 0.1em solid white;
-    margin: 0 0.3em 0.3em 0;
-    border-radius: 0.12em;
-    color: white;
-    text-decoration: none;
-    text-align: center;
-    transition: color 0.7s;
-    background-color: orange;
-}
-
-.button :hover {
-    color: black;
-    background-color: white;
-    cursor: pointer;
+.clock {
+  font-size: 30px;
 }
