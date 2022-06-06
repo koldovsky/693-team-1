@@ -74,11 +74,11 @@
         justify-content: center;
     }
 
-    .button .img-bot {
+    .button_inst .img-bot {
         width: 12%;
     }
     
-    .button .img-top {
+    .button_inst .img-top {
         width: 12%;
     }
 }
@@ -100,11 +100,11 @@
         justify-content: center;
     }
 
-    .button .img-bot {
+    .button_inst .img-bot {
         width: 20%;
     }
     
-    .button .img-top {
+    .button_inst .img-top {
         width: 20%;
     }
 }
@@ -125,28 +125,28 @@
         justify-content: center;
     }
 
-    .button .img-bot {
+    .button_inst .img-bot {
         width: 30%;
     }
     
-    .button .img-top {
+    .button_inst .img-top {
         width: 30%;
     }
 }
 
-.button {
+.button_inst {
     display: flex;
     justify-content: center;
     margin-top: 40px;
     margin-bottom: 100px;
 }
 
-.button .img-top {
+.button_inst .img-top {
     display: none;
     position: absolute;
     z-index: 99;
 }
 
-.button:hover .img-top {
+.button_inst:hover .img-top {
     display: inline;
 }
