@@ -114,7 +114,8 @@
 
 @media (max-width: 768px) {
   .menu-button-container {
-    display: flex; }
+    display: flex; 
+    overflow: auto;}
 
   .header__contacts {
     display: none;
