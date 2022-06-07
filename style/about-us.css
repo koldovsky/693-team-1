@@ -55,7 +55,7 @@ h1 {
 }
 
 .marina {
-    width: 273px;
+    width: 240px;
     height: 337px;
 }
 
@@ -86,7 +86,6 @@ h1 {
     justify-content: center;
     text-align: center;
     align-items: center;
-    padding-left: 30px;
     padding-right: 20px;
 }
 
@@ -110,7 +109,7 @@ h1 {
 .our_experience {
     border: white;
     background-color: rgba(117, 190, 218, 0.4);
-    width: 272px;
+    width: 241px;
     height: 350px;
     display: flex;
     flex-direction: column;
@@ -142,7 +141,7 @@ h1 {
 .our_service {
     border: white;
     background-color: rgba(117, 190, 218, 0.4);
-    width: 272px;
+    width: 241px;
     height: 350px;
     display: flex;
     flex-direction: column;
@@ -172,7 +171,7 @@ h1 {
 .our_option {
     border: white;
     background-color: rgba(117, 190, 218, 0.4);
-    width: 272px;
+    width: 241px;
     height: 350px;
     display: flex;
     flex-direction: column;
@@ -283,10 +282,7 @@ h1 {
 
     }
 
-    .marina {
-        width: 418px;
-        height: 516px;
-    }
+   
 
     .flex_our_promises {
         display: flex;
@@ -372,18 +368,3 @@ h1 {
     }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

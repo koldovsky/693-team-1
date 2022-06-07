@@ -223,10 +223,12 @@ a:hover {
 
     .create {
         margin-left: 40px;
+        margin-top: 40px;
 
     }
 
     .rights {
         margin-right: 40px;
+        margin-top: 40px;
     }
 }
